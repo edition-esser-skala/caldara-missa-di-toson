@@ -1,0 +1,10 @@
+name: Release engraved scores
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  engrave_scores:
+    uses: edition-esser-skala/ees-tools/.github/workflows/engrave-and-release.yaml@main
