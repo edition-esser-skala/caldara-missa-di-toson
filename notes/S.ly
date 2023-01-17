@@ -92,5 +92,75 @@ KyrieSopranoLyrics = \lyricmode {
   son. %47 finis
 }
 
+ChristeSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoChriste
+      \set Score.currentBarNumber = #48
+    R1*10 %57
+    \mvTr d'4\pE^\soloE e4. c16([ h)] c8 d
+    g,4 r r2
+    r8 d' h d c c a c %60
+    h4 e4. d16[ cis] d8[ cis16 h]
+    cis4. d4 e8 cis8. d16
+    d4 r r2
+    R1*3 %66
+    h4 c4. a16([ g)] a8 h
+    e,4 r r2
+    r8 d' h d c! c a c
+    h h g h a4 fis'~ %70
+    fis8 e e4. d8 d4~
+    d8 c c4. c8([ h a)]
+    g4 fis e r
+    R1
+    r2 d'4 e~ %75
+    e8 c16([ h)] c8 d g, c4 h8
+    a d4 c8 h e4 d8
+    c4 h a2
+    r r8 d h d
+    c c a c h4 e~ %80
+    e8 d d4. c8 c4~
+    c8[ \once \tieDashed h]~ h[ a16 g] a4. a8
+    g4 r r2
+    r8 e' c e d d h d
+    c c a c h4. a16[ g] %85
+    a4 h8[ c] a4. a8
+    g2 r
+    R1*9 %96
+    R1\fermata \bar "||" %97 finis
+  }
+}
+
+ChristeSopranoLyrics = \lyricmode {
+  Chri -- ste e -- le -- i -- %58
+  son,
+  e -- le -- i -- son, e -- le -- i -- %60
+  son, e -- _ _
+  _ _ _ le -- i --
+  son.
+
+  Chri -- ste e -- le -- i -- %67
+  son,
+  e -- le -- i -- son, e -- le -- i --
+  son, e -- le -- i -- son, Chri -- %70
+  _ ste e -- le --
+  i -- son, e --
+  le -- i -- son.
+
+  Chri -- ste __ %75
+  e -- le -- i -- son, e -- _
+  _ _ _ _ _ _
+  le -- i -- son,
+  e -- le -- i --
+  son, e -- le -- i -- son, Chri -- %80
+  _ ste e -- le --
+  _ i --
+  son,
+  e -- le -- i -- son, e -- le -- i --
+  son, e -- le -- i -- son, e -- %85
+  _ _ le -- i --
+  son. %87 finis
+}
+
 % Ky -- ri -- e e -- le -- i -- son,
 %   Ky -- ri -- e e -- le -- i -- son,

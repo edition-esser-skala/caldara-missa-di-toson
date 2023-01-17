@@ -51,3 +51,49 @@ KyrieViolinoI = {
     c2 r4\fermata \bar "||" %47 finis
   }
 }
+
+ChristeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoChriste
+      \set Score.currentBarNumber = #48
+    R1*2
+    r2 a''4\fE h~ %50
+    h8 g16 fis g8 a d, fis d fis
+    e e cis e d d h d
+    cis d4 cis8 d4 g~
+    g8 fis fis4 r8 g e g
+    f f d f e4 e~ %55
+    e8 d d4. c8 c4~
+    c h a2
+    g4 r r2
+    R1*4 %62
+    a'4\fE h4. g16 fis g8 a
+    d,4 g4. fis8 \once \tieDashed fis4~
+    fis8 e e4. dis8 \once \tieDashed fis4~ %65
+    fis8 h, e2 dis4
+    e r r2
+    R1*5 %72
+    r2 r8 h'\fE g h
+    a a fis a g g e g
+    fis g16 a g8 fis g g,, r4 %75
+    R1*2
+    r2 r8 a''\fE fis a
+    g g e g fis4 g
+    r2 r8 h\p g h %80
+    a a fis a g g e g
+    fis4 g2 fis4
+    r8 g\f e g f f d f
+    e e, r4 r2
+    R1*4 %88
+    r2 a'4\fE h~
+    h8 g16 fis g8 a d, fis d fis %90
+    e e cis e d d h d
+    cis d4 cis8 d4 g~
+    g8 fis fis4 r8 g e g
+    f f d f e4 e~
+    e8 d d4. c8 c4~ %95
+    c h a2
+    g1\fermata \bar "||" %97 finis
+  }
+}
