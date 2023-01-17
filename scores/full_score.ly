@@ -11,9 +11,13 @@
     \score {
       <<
         \new StaffGroup <<
-          \new Staff \with { \smallStaffDistance } <<
+          \new Staff <<
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
+          >>
+          \new Staff \with { \smallStaffDistance } <<
+            \set Staff.instrumentName = \transposedName "Tromba I, II" "C" ""
+            \partCombine #'(0 . 10) \KyrieTrombaI \KyrieTrombaII
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "Trombone"
@@ -32,7 +36,7 @@
           \KyrieTimpani
         }
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -41,17 +45,6 @@
             \new Staff {
               \set Staff.instrumentName = "II"
               \KyrieViolinoII
-            }
-          >>
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Viola"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \KyrieViolaI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \KyrieViolaII
             }
           >>
         >>
@@ -90,7 +83,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 60 }
     }
   }
 }

@@ -3,7 +3,7 @@ composer:
   first: Antonio
 title: Missa di Toson B. V. Mariæ
 genre: mass
-scoring: S, A, T, 2 B (solo), S, A, T, B (coro), 2 clno (C), 2 trb, timp (C–G), 2 vl, 2 vla, b, org
+scoring: S, A, T, 2 B (solo), S, A, T, B (coro), 2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -14,8 +14,15 @@ sources:
     url: https://resolver.staatsbibliothek-berlin.de/SBB000147BC00000000
     license: public domain
     principal: true
-    notes: presumably copied by Johann George Kremmler; contains additions by Johann David Heinichen
+    notes: full score, comprising 2 clno, 2 tr, 2 trb, timp, 2 vl, S, A, T, B, and org
   B2:
+    siglum: A-Ed
+    shelfmark: A 40
+    rism: 600037827
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/689.html
+    license: public domain
+    notes: contains parts for clno 1, clno 2, trb 1, trb 2, timp, vl 1, vl 2, S, A, T, B, vlne, and org
+  D1:
     siglum: D-B
     shelfmark: Mus.ms. 2730/2
     date: 1737
@@ -23,21 +30,14 @@ sources:
     url: https://resolver.staatsbibliothek-berlin.de/SBB000147C400000000
     license: public domain
     notes: denoted “Missa Sancti Petri”; contains parts for clno 1, clno 2, timp, vl 1, vl 2, vla, S, A, T, B, and org
-  B3:
-    siglum: A-Ed
-    shelfmark: A 40
-    rism: 600037827
-    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/689.html
-    license: public domain
-    notes: contains parts for clno 1, clno 2, trb 1, trb 2, timp, vl 1, vl 2, S, A, T, B, vlne, and org
-  B4:
+  D2:
     siglum: D-B
     shelfmark: Mus.ms. 2730/1
     date: 1825
     rism: 452002711
     url: https://resolver.staatsbibliothek-berlin.de/SBB000147BD00000000
     license: public domain
-    notes: full score comprising 2 clno, timp, 2 vl, vla, chorus, and org
+    notes: full score, comprising 2 clno, timp, 2 vl, vla, S, A, T, B, and org
 imslp:
 parts:
   ottoni: Clarino I, II in C\\Timpani in C–G
