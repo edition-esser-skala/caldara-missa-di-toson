@@ -140,3 +140,90 @@ KyrieIIViolinoI = {
     g1\fermata \bar "|." %137 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'8\fE e e e e a, cis e
+    g e16 f g f g e f8 d, f a
+    c! fis16 g a g a fis g8 g, h d
+    f d16 e f e f d e8 c e g
+    b g16 a b a b g a8 a16 gis a8 a %5
+    gis e, gis h d e, gis h
+    c a c e a f, a d~
+    d c h4 a4. c8\p
+    h h h h a a a a
+    gis gis a a a a gis gis %10
+    a4 r r2
+    R1
+    r8 e'\f f d e4 r
+    R1
+    r2 r4 g8\fE g %15
+    a4 fis8^\critnote fis g4 r
+    R1*4 %20
+    r4 g8\fE g a g16 a fis g a fis
+    g8 g, r4 r2
+    R1*3 %25
+    r8 e'\fE e e f e16 f d e f d
+    e4 r r2
+    R1*12 %39
+    r2 d16.\fE c32 h16. a32 g8 e'~ %40
+    e d16 c d g f g e c e a f d f8
+    g16 e g c a f a d h a h8 cis16 h cis8
+    d b e,8. d16^\critnote d4 \tempoDomine d8-\solo e16. f32
+    \appoggiatura f8 e4~ e16 e f g f8 g16. a32 b8 d,
+    \appoggiatura d4 cis2 c8 fis16( a) c,8 a'16. c,32 %45
+    c4 h! b8 e16.( g32) b,8 g'16. b,32
+    b4 a8 d b16 g e'8 cis16 a a'8
+    f16( d) b'8 g16( e) cis'8 d4~ d16 d, e d'
+    c c, d c' b b, c b' a a, b a' g4~
+    g16 e cis g' f4. e16 d cis4^\critnote %50
+    d r r2
+    R1
+    d4. e16 f e4~ e16 e f16. g32
+    f8 g16. a32 b8 d, cis8. h16 a4
+    a'8\p b16 c! d8 c b2~ %55
+    b8 a16 b c8 b a4. g16 f
+    e4 f4. g8 e4
+    f8 f16\f g a4~ a16 a, b a' g g, a g'
+    f f, g f' e e, f e' d d, e d' c c, d c'
+    b4~ b16 b' c, b' a8 g16. f32 g4\trill %60
+    f r r2
+    g4. a16 b gis8 a h? a16 gis
+    a4 r r2
+    R1*2 %65
+    r4 r8 a f16( d) b'8 g16( e) cis'8
+    d d, r4 b'4.\p c8
+    a4. b8 g4. a8
+    f2~ f8 e d4~
+    d cis d4.\f e16 f %70
+    e4~ e16 e f16. g32 f8( a) b d,
+    \appoggiatura d4 cis2 c8 fis16( a) c,8 a'16( c,)
+    c4\trill h! b8 e16.( g32) b,8 g'16. b,32
+    b4 a8 d b16( g) e'8 cis16( a) a'8
+    f16 d b'8 g16 e cis'8 d a b gis %75
+    a cis, d g \appoggiatura f4 e2
+    d4 r r2
+    r r8 \mvTr d-!\fE-\tutti es-! d-!
+    c-! es-! f-! es-! d d16 f g4~
+    g8 c,16 es f4. b,16 d es4~ %80
+    es8 d c4 b r
+    R1*2
+    r2 r8 a' b a
+    g b c b a a16 c d4~ %85
+    d8 g,16 b c4. f,16 a b4~
+    b8 a g8. f16 f4 r
+    r8 d\p es d c es f es
+    d4 r r2
+    r8 d16 f g4. c,16 es f4~ %90
+    f8 b,16 d es4. d8 c4
+    b8 b'\fE c b as as b as
+    g4 r r2
+    R1
+    r2 r8 f\pE g f %95
+    es es f es d d es d
+    c f4 es d8 c4
+    b1\fermata \bar "||" %98 finis
+  }
+}

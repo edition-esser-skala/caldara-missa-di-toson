@@ -85,3 +85,46 @@ KyrieIITromboneI = {
     e1\fermata \bar "|." %137 finis
   }
 }
+
+GloriaTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoGloria
+    \mvTr g'8\fE-\tutti g g g a4 r
+    r8 g g g f4 r
+    r8 fis fis fis g4 d
+    r r8 d e4 c
+    r8 g' g g f4. f8 %5
+    h,!8. h16 h4 e8 e e e
+    e4 r8 a4 f d16 f
+    e2 e4 r8 \mvTr a,\p-\critnote-\solo
+    d d g, g a a a a
+    h h fis' fis e e e e %10
+    e4 r r2
+    R1
+    r8 \mvTr g\fE-\tutti a g g4 r
+    R1
+    r2 r4 d8\fE d %15
+    e4 d8 d d4 r
+    R1*4 %20
+    r4 g8\fE g a4 fis
+    e r r2
+    R1*3 %25
+    r8 g\fE g g a4 g
+    g r r2
+    R1
+    r4 \mvTr e4.\fE-\solo f16 e d4~
+    d8 e16 d c2 h4 %30
+    R1*5 %35
+    r8 a16\fE h c8 d16 e f2~
+    f8 g,16 a h8 c16 d e2~
+    e8 f,16 g a8 h16 c d2~
+    d4 c h2\trill
+    a4 e'8-\tuttiE e16 e d8 d e e %40
+    e4 d e f
+    g a g e8 a
+    f g e8. d16 d4 \tempoDomine r
+    R1*54 %97
+    R1\fermata \bar "||" %98 finis
+  }
+}

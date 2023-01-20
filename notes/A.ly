@@ -171,3 +171,109 @@ KyrieIIAltoLyrics = \lyricmode {
   le -- i -- son, e -- le -- i --
   son. %137 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr g'8\fE^\tutti g g g a4 r
+    r8 g g g f4 r
+    r8 fis fis fis g4 d
+    r r8 d e4 c
+    r8 g' g g f4. f8 %5
+    h,!8. h16 h4 e8 e e e
+    e4 r8 a4 f d16[ f]
+    e2 e
+    R1*4 %12
+    r8 \mvTr g\fE^\tutti a g g4 r
+    R1
+    r2 r4 \mvTr d8\fE^\tuttiE d %15
+    e4 d8 d d4 \mvTr g~\pE^\solo
+    g f!2 e4
+    dis8[ e] fis4. a8[ g fis]
+    g[ a] h4. e,8 a4~
+    a g fis4. fis8 %20
+    e4 \mvTr g8\fE^\tutti g a4 fis
+    e r r2
+    R1*3 %25
+    r8 \mvTr g\fE^\tuttiE g g a4 g
+    g r r2
+    R1*12 %39
+    r4 \mvTr e8\fE^\tuttiE e16 e d8 d e e %40
+    e4 d e f
+    g a g e8[ a]
+    f g e8. d16 d4 \tempoDomine r
+    R1*7 %50
+    \mvTr d4.\pE^\solo e16[ f] e4. f16[ g]
+    f8[ g16 a] b8 d, cis8.([ h16)] a4
+    R1
+    r2 e'8 f16([ g)] a8 g
+    f2~ f8[ e16 f] g8[ f] %55
+    e4. d16[ e] f8[ g16 a] b4~
+    b8 a16 g a4. b8 g4
+    f2 r
+    R1*2 %60
+    f4. g16[ a] fis8[^\critnote g a] g16([ fis)]
+    g2 r
+    e4 a8 e f! d b' d,
+    e[ f16 g] a4~ a16[ b g f] g4~
+    g8[ a16 g] f8[ e] f[ b16 a] b8[ d,] %65
+    cis8. d16 e4 r2
+    r4 a4. b8 g4~
+    g8[ a] f4. g8 e4~
+    e8[ f16 e] d8[ cis] d[ b' a] g
+    f4( e) d r %70
+    R1*27 %97
+    R1\fermata \bar "||" %98 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Et in ter -- ra pax,
+  in ter -- ra pax,
+  in ter -- ra pax, pax,
+  in ter -- ra,
+  in ter -- ra pax ho -- %5
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- _ _ _
+  _ tis.
+
+  Lau -- da -- mus te, %13
+
+  be -- ne -- %15
+  di -- ci -- mus te, ad --
+  o -- ra --
+  _ _ _
+  _ _ _ _
+  _ _ mus %20
+  te, ad -- o -- ra -- mus
+  te,
+
+  glo -- ri -- fi -- ca -- mus %26
+  te.
+
+  Do -- mi -- ne De -- us, Rex coe -- %40
+  le -- stis, De -- us
+  Pa -- _ _ _
+  ter o -- mni -- po -- tens.
+
+  Do -- _ _ _ %51
+  _ mi -- ne Fi -- li,
+
+  Fi -- li u -- ni --
+  ge -- _ %55
+  _ _ _ _
+  ni -- te, Je -- su Chri --
+  ste,
+
+  Do -- _ _ mi -- %61
+  ne,
+  Do -- mi -- ne Fi -- li u -- ni --
+  ge -- _ _
+  _ _ _ %65
+  _ ni -- te,
+  Je -- _ _
+  _ _ _
+  _ _ su
+  Chri -- ste. %70 finis
+}

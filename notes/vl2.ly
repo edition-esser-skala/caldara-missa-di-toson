@@ -140,3 +140,57 @@ KyrieIIViolinoII = {
     g1\fermata \bar "|." %137 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    c'8\fE c c c cis4 r
+    e8 cis16 d e d e cis d4 r
+    a8 a16 h c h c a h4 r
+    d8 h16 c d c d h c4 r
+    g'8 e16 f g f g e f8 c d16 e c d %5
+    e4 r gis, r8 gis
+    a e' c4 a r8 h
+    gis a4 gis8 a e\p f f
+    f e e e e d d d
+    d d c c h h h h %10
+    a4 r r2
+    R1
+    r8 c'\f d h c4 r
+    R1
+    r2 r4 h8\fE h %15
+    c4 a8 a h4 r
+    R1*4 %20
+    r4 e8\fE e fis e16 fis dis e fis dis
+    e8 e, r4 r2
+    R1*3 %25
+    r8 c'\fE c c d c16 d h c d h
+    c4 r r2
+    R1*12 %39
+    r4 a16.\fE^\critnote g32 f16. e32 d8 d e c'~ %40
+    c h16 a h8 g4 a h8~
+    h c4 d e f8
+    d e cis8. d16 d4 \tempoDomine r
+    R1*34 %77
+    r2 r8 b-!\fE c-! b-!
+    a-! c-! d-! c-! b4. g16 b
+    c4. f,16-\critnote a b4. g16 c %80
+    a8 b4 a8 b4 r
+    R1*2
+    r2 r8 f' g f
+    e g a g f4. d16 f %85
+    g4. c,16 e f4. d16 g
+    e8 f4 e8 f4 r
+    r8 b,\p c b a c d c
+    b4 r r2
+    r4 r8 g16 b c4. f,16 a %90
+    b4. g16 b a8 b4 a8
+    b4 r r8 f'\fE g f
+    es4 r r2
+    R1*2 %95
+    r8 c\pE d c b b c b
+    a a g4 a8-\critnote b4 a8
+    b1\fermata \bar "||" %98 finis
+  }
+}

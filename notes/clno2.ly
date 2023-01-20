@@ -52,3 +52,29 @@ KyrieIIClarinoII = {
     e1\fermata \bar "|."
   }
 }
+
+GloriaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    R1*2
+    r2 r4 d'\fE
+    r8 d d d e4 r8 e
+    e c r4 r2 %5
+    R1*7 %12
+    r8 c\fE d g, c4 r
+    R1
+    r2 r4 \mvTr d8\fE-\critnote d %15
+    e e d d d4 r
+    R1*9 %25
+    r8 e\fE e e d16 e d e d e d e
+    c4 r r2
+    R1*12 %39
+    r4 c8\fE c16 c d8 d c c %40
+    c g g4 r2
+    R1
+    \after 2. \tempoDomine R1
+    R1*54 %97
+    R1\fermata \bar "||" %98 finis
+  }
+}

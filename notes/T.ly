@@ -179,3 +179,79 @@ KyrieIITenoreLyrics = \lyricmode {
   le -- i -- son, e -- le -- i --
   son. %137 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr e8\fE^\tutti e e e e4 r
+    r8 e e e d4 r
+    r8 a a a g4 h
+    r r8 h c4 g
+    r8 e' e e c4 d %5
+    e8. e16 e4 h8 h h h
+    c[ a16 h] c4 a d
+    h8[ c] h4 a2
+    R1*4 %12
+    r8 \mvTr c\fE^\tutti d h c4 \mvTr g8\pE^\solo g
+    c4. c8 h4 g8 g
+    a4 fis8 fis g4 \mvTr h8\fE^\tutti h %15
+    c4 a8 a h4 r
+    R1*4 %20
+    r4 \mvTr h8\fE^\tutti h c4 h
+    h r r2
+    R1*3 %25
+    r8 \mvTr e\fE^\tutti e e f4 d
+    e \mvTr e4.\pE^\solo f16 e d4~
+    d8 e16 d c2 h4
+    R1*2 %30
+    r2 a8 a h c
+    d[ f16 e] d8[ c] h8.[ c16] d4~
+    d8[ e16 d] c8[ h] a8.[ h16] c4~
+    c8[ d16 c] h8[ a] gis8.[ a16] h4~
+    h8 e, a4.( h8) gis4 %35
+    a2 r
+    R1*3
+    r4 \mvTr c8\fE^\tutti c16 c d8 d c c %40
+    c4 h c a8([ d)]
+    g,[ e' a, f'] h,[ e] cis4
+    d8 b a8. a16 a4 \tempoDomine r
+    R1*54 %97
+    R1\fermata \bar "||" %98 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Et in ter -- ra pax,
+  in ter -- ra pax,
+  in ter -- ra pax, pax,
+  in ter -- ra,
+  in ter -- ra pax ho -- %5
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- _ _ _
+  _ _ tis.
+
+  Lau -- da -- mus te, be -- ne -- %13
+  di -- ci -- mus, be -- ne --
+  di -- ci -- mus te, be -- ne -- %15
+  di -- ci -- mus te,
+
+  ad -- o -- ra -- mus %21
+  te,
+
+  glo -- ri -- fi -- ca -- mus %26
+  te. Gra -- ti -- as a --
+  gi -- mus ti -- bi
+
+  pro -- pter ma -- gnam %31
+  glo -- _ _ _
+  _ _ _
+  _ _ _
+  ri -- am __ tu -- %35
+  am.
+
+  Do -- mi -- ne De -- us, Rex coe -- %40
+  le -- stis, De -- us __
+  Pa -- _ _
+  ter o -- mni -- po -- tens. %43 finis
+}

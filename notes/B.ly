@@ -238,3 +238,106 @@ KyrieIIBassoLyrics = \lyricmode {
   le -- i -- son, e -- le -- i --
   son. %137 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoGloria
+    \mvTr c8\fE^\tutti c b b a4 r
+    r8 a' a a d,4 r
+    r8 d d d g4 g,
+    r r8 g' c4 c,
+    r8 c c c f4. f8 %5
+    e8. e16 e4 e8 e e e
+    a[ a,] a'4 f d
+    e2 a,
+    R1*4 %12
+    r8 \mvTr c\fE^\tutti f g c,4 r
+    R1
+    r2 r4 \mvTr g'8\fE^\tuttiE g %15
+    c,4 d8 d g,4 r
+    R1*4 %20
+    r4 \mvTr e'8\fE^\tuttiE e a,4 h
+    e r8 \mvTr g\pE^\solo e c a[ a'16 g]
+    fis8[ d] c[ d16 c] h8[ g] f'?[ g16 f]
+    e8.[ c16] b'8[ c16 b] a8[ f d c]
+    h![ g' e c] a'16.[ c32 f,16. a32] g8. g16 %25
+    c,8 \mvTr c'\fE^\tutti c c f,4 g
+    c, r r2
+    R1*12 %39
+    r4 \mvTr a'8\fE^\tutti a16 a h8 h c c %40
+    g4 g, c d
+    e f g a
+    b8 g a8. a16 d,4 \tempoDomine r
+    R1*33 %76
+    \mvTr d4\pE^\solo b'8 f g d es c
+    f2 b,4 r
+    R1*2 %80
+    r2 r8 b' c b
+    a[ es f es] d[ f] b[ d,16. f32]
+    e!8[ g] c[ c,16. e32] d8[ d] g[ b,16. d32]
+    c8[ f] c4 f, r
+    R1*2 %86
+    r2 f'4 a8 f
+    b b es,8.^\critnote es16 f4 f,
+    g' c8 b a[ c f, a]
+    b[ b,] b'4 a8[ a,] a'4 %90
+    g8[ g,] g'4 f8[ b] f4
+    b, r r2
+    r8 es f es d[ as' b as]
+    g[ es c b] a![ c' b f]
+    d[ b' g es] f2~ %95
+    f1~
+    f
+    b,1\fermata \bar "||" %98 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+  Et in ter -- ra pax,
+  in ter -- ra pax,
+  in ter -- ra pax, pax,
+  in ter -- ra,
+  in ter -- ra pax ho -- %5
+  mi -- ni -- bus bo -- nae vo -- lun --
+  ta -- _ _ _
+  _ tis.
+
+  Lau -- da -- mus te, %13
+
+  be -- ne -- %15
+  di -- ci -- mus te,
+
+  ad -- o -- ra -- mus %21
+  te, glo -- ri -- fi -- ca --
+  _ _ _ _
+  _ _ _
+  _ _ _ mus %25
+  te, glo -- ri -- fi -- ca -- mus
+  te.
+
+  Do -- mi -- ne De -- us, Rex coe -- %40
+  le -- stis, De -- us
+  Pa -- _ _ _
+  ter o -- mni -- po -- tens.
+
+  Do -- mi -- ne De -- us, A -- gnus %77
+  De -- i,
+
+  Fi -- li -- us %81
+  Pa -- _ _
+  _ _ _ _
+  _ _ tris,
+
+  Do -- mi -- ne %87
+  De -- us, A -- gnus De -- i,
+  Fi -- li -- us Pa --
+  _ _ _ _ %90
+  _ _ _ _
+  tris,
+  Fi -- li -- us Pa --
+  _ _
+  _ _ %95
+
+  tris. %98 finis
+}

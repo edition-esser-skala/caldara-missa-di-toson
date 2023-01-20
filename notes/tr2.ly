@@ -43,3 +43,28 @@ KyrieIITrombaII = {
     c1\fermata \bar "|." %137 finis
   }
 }
+
+GloriaTrombaII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    R1*2
+    r2 r4 g\fE
+    r8 g g g c4 r8 c
+    c e r4 r2 %5
+    R1*7 %12
+    c4\fE r8 g c4 r
+    R1*2 %15
+    r2 g4\fE r
+    R1*9 %25
+    r8 c\fE c4 r g
+    c r r2
+    R1*12 %39
+    r2 g8\fE g c c %40
+    g4 g r2
+    R1
+    \after 2. \tempoDomine R1
+    R1*54 %97
+    R1\fermata \bar "||" %98 finis
+  }
+}
