@@ -162,5 +162,82 @@ ChristeSopranoLyrics = \lyricmode {
   son. %87 finis
 }
 
-% Ky -- ri -- e e -- le -- i -- son,
-%   Ky -- ri -- e e -- le -- i -- son,
+KyrieIISoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoKyrieII
+      \set Score.currentBarNumber = #98
+    R1*5 %102
+    \mvTr c'4.\fE^\tuttiE c8 d([ c d c]
+    h4.) a16[ h] c8[ h a g]
+    fis[ e' d c] h8. a16 g4 %105
+    r8 d' h g c g c8. b16
+    a8 c d4. c8 h16[ c a h]
+    c8[ g^\critnote c] h a4 d~
+    d8[ c16 d] h8[ c16 d] e8[ d c h]
+    a2 g8[ a] h[ a16 g] %110
+    a4. a8 g4 r
+    R1*2
+    r2 g4. g8
+    a([ g a g] fis4.) e16[ fis] %115
+    g8[ f e d] c[ c' h a]
+    gis a4 gis8 a e' c a
+    d a d8. c16 h4 r8 d
+    e8[ d] c4~ c16[ d h c] d8[ c]
+    h16([ c)] a([ h)] c4 r2 %120
+    e4. e8 f([ e f e]
+    dis4.) cis16([ dis] e8[ d e d])
+    c4. c8 h fis' dis h
+    e h e8. d16 c8 e fis4~
+    fis8[ e] dis16[ e cis dis] e8[ h] e4~ %125
+    e dis e8 e16([ d)] c8 h
+    c4 r r8 d16([ c)] h8 a
+    h4 r c4. c8
+    d([ c d c] h4.) a16[ h]
+    c8[ h a g] fis[ e' d c] %130
+    h8. a16 g4 r8 f'! d h
+    e c e8. d16 c8 e f16[ e d c]
+    d2~ d8[ c16 h] c4
+    h c2 h4
+    c8 e16([ d] c8[ h)] c8. g16 g8 g %135
+    g8. g16 g8 g g4. g8
+    g1\fermata \bar "|." %137 finis
+  }
+}
+
+KyrieIISopranoLyrics = \lyricmode {
+  Ky -- ri -- e __ %103
+  e -- _
+  _ le -- i -- son, %105
+  e -- le -- i -- son, e -- le -- i --
+  son, e -- le -- _ _
+  _ i -- son, e --
+  _ _
+  _ _ _ %110
+  le -- i -- son,
+
+  Ky -- ri -- %114
+  e __ e -- %115
+  _ _
+  _ le -- i -- son, e -- le -- i --
+  son, e -- le -- i -- son, e --
+  _ _ _
+  le -- i -- son, %120
+  Ky -- ri -- e __
+  e --
+  le -- i -- son, e -- le -- i --
+  son, e -- le -- i -- son, e -- le --
+  _ _ _ %125
+  i -- son, e -- le -- i --
+  son, e -- le -- i --
+  son, Ky -- ri --
+  e __ e --
+  _ _ %130
+  le -- i -- son, e -- le -- i --
+  son, e -- le -- i -- son, e -- le --
+  _ _
+  _ _ i --
+  son, e -- le -- i -- son, e -- %135
+  le -- i -- son, e -- le -- i --
+  son. %137 finis
+}

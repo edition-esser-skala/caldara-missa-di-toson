@@ -43,3 +43,45 @@ KyrieTromboneI = {
     g2 r4\fermata \bar "||" %47 finis
   }
 }
+
+KyrieIITromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoKyrieII
+      \set Score.currentBarNumber = #98
+    R1*7 %104
+    r2 g'4.\fE g8 %105
+    g f! g f e4. d16 e
+    f8 e d c h a' g f
+    e8. d16 c4 r8 a' fis d
+    g d g8. f16 e8 g a4~
+    a8 g fis16 g e fis g8 d g4~ %110
+    g fis g r
+    r8 g e c f c f8. e16
+    d8 f g4. f8 e16 f d e
+    fis8 g a16 h g a h8 a g fis
+    e2 d~ %115
+    d e8 d16 e f!8 e16 f
+    e4 f8 e e4 r
+    R1
+    r8 g e c f c f g16 a
+    g4~ g16 a f g a4. a8 %120
+    gis4 r a4. a8
+    h a h a gis4. fis16 gis
+    a8 g a g fis2
+    r8 h gis e a e a8. g16^\critnote
+    fis8 a h4~ h8. a16 g8 fis16 e %125
+    fis4. fis8 e gis a gis
+    a4 r r8 fis g fis
+    g4 r r2
+    r8 a fis d g d g8. f16
+    e8 g a4. g8 fis16 g e fis %130
+    g8 d h g g' a g4~
+    g8 f!16 g e8 f16 g a8 g f g16 a
+    g2 g
+    g2. g4
+    g r8 g g8. e16 e8 d %135
+    e8. e16 e8 e d4. d8
+    e1\fermata \bar "|." %137 finis
+  }
+}

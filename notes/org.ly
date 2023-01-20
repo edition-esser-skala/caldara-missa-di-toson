@@ -220,3 +220,116 @@ ChristeBassFigures = \figuremode {
   q <5> <6 5>2
   r1 %97 finis
 }
+
+KyrieIIOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoKyrieII
+      \set Score.currentBarNumber = #98
+    << {
+      \mvTr c'4._\fE_\tuttiE c8 d c d c
+      h4. a16 h c8 h a g
+      fis e' d c h8.^\critnote a16 g4 %100
+      r8 d' h g c g c8. b16
+      a8 c d4. c8 h16 c a h
+    } \\ {
+      R1*2
+      r2 g4. g8 %100
+      g f g f e4. d16 e
+      f8 e d c h a' g f
+    } >>
+    e8. d16 c4 f8 a fis d
+    g d g8. f16 e8 g a4~
+    a8 g fis16 g e fis g4 g, %105
+    \clef treble << {
+      r8 d''' h g c g c8. b16
+      a8 c d4
+    } \\ {
+      g,8 f! g f e4. d16 e
+      f8 e d c
+    } >> \clef "treble_8" g4. g8
+    \clef bass c,4. c8 d c d c
+    h4. a16 h c8 h a g
+    fis e' d c h8. a16 g4 %110
+    d' d, g \clef "treble_8" h'8 g
+    << { r8 g' e c f! } \\ { c g c8. b16 a8 } >> \clef bass a f d
+    g d g8. f16 e4 a~
+    a8 g fis16 g e fis g4 g,
+    c4. c8 d c d c %115
+    h4. a16 h c8 h16 c d8 c16 d
+    e8 c d e a,4 a'
+    f8 a f d g d g8. f16
+    e8 g a4. g8 f16 g e f
+    g8 f e16 f d e f2 %120
+    e \clef treble << {
+      f''8 e f e
+      dis4. cis16 dis
+    } \\ {
+      a4. a8
+      h8 a h a
+    } >> \clef "treble_8" e4. e8
+    \clef bass a,4. a8 h a h a
+    gis4. fis16 gis a8 g? fis e
+    dis c' h a g8. fis16 e4 %125
+    h' h, e \clef treble << { c''!8 h c } \\ { a gis a } >>
+    \clef bass a,16 g! fis8 e fis4 \clef treble << { h'8 a h } \\ { g fis g } >>
+    \clef bass g,16 f! e8 d e4 \clef treble << {
+      c''
+      d8 c d c h4. a16 h
+      c8 h a g fis e' d c %130
+    } \\ {
+      r4 r8 a fis d g d g8. f?16
+      e8 g a4. g8 fis4 %130
+    } >>
+    \clef bass g,4. g8 g f! g f
+    e4. d16 e f8 e d c
+    h a g f' e8. d16 c8 c
+    g1
+    c4 r8 g c4. g8 %135
+    c4. c8 g'4 g,
+    c1\fermata \bar "||" %137 finis
+  }
+}
+
+KyrieIIBassFigures = \figuremode {
+  r1 %98
+  r
+  r %100
+  r
+  r
+  <[6]>2 <6>8 <5> <6> <7 [_+]>
+  r2 \bo <[6]>
+  <6\\>8 <6> \bc <[6]>4 r2 %105
+  r1
+  r
+  <5>4 <6>8 <5> <_+>2
+  \bo <[6]>1
+  <6>2 \bc <[6]> %110
+  <4>4 <_+>2.
+  r <6>4
+  <[_!]>2 <6>
+  \bo <[6\\]>4 \bc <[6]> <5> <6>8 <5>
+  <6> <5> <6> <5> <_+>2 %115
+  <[6]>2. <6>4
+  <_+>8 <[6]> <6 5> <_+> <_!>2
+  <6>1
+  \bo <[6]>4 <5> <6>2
+  r4 \bc <[6]> <7> <6> %120
+  <_+>1
+  r2 <_+>
+  <6!>8 <5> <6> <5> \bo <[5+] _+>2
+  <6>1
+  q8 <6> <5+ _+>4 <6>2 %125
+  <5+ 4>4 \bc <[\t] _+>2.
+  r8 \bo <[3]>16 <3> q8 q \bc <[3]>2
+  r4 <6>8 q <[6]>2
+  r1
+  r %130
+  r2 r8 <6 3>4 <4>8
+  \bo <[6]>2 r8 <6> <5> <\t>
+  \bc <[6]>4. <4>8 <7> <[6]>16 <6> r4
+  <[5] 3> <6 4> <5 \t> <\t 3>
+  r1 %135
+  r2 <4>4 <3>
+  r1 %137 finis
+}

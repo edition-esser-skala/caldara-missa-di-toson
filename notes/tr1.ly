@@ -27,3 +27,19 @@ KyrieTrombaI = {
     g2.\fermata \bar "|"
   }
 }
+
+KyrieIITrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoKyrieII
+      \set Score.currentBarNumber = #98
+    R1*33 %130
+    g'8.\fE g16 g4 r r8 g
+    g g g4 r2
+    r r4 r8 g
+    g4 g g4. g8
+    g4. g8 g4. g8 %135
+    g4. g8 g4 g
+    \pao c,1\fermata \bar "|." %137 finis
+  }
+}
