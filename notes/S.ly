@@ -386,8 +386,51 @@ QuiTollisSopranoLyrics = \lyricmode {
   stram. %130 finis
 }
 
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiSedesSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoQuiSedes
+      \set Score.currentBarNumber = #131
+    R1*4
+    r8 \mvTr e'\pE^\soloE c16([ a) h( gis)] a([ gis)] a8 r4 %135
+    r8 d c! h16 a h8( e4 d8)
+    e4 e8 h16([ d)] cis4 c8[ a16. c32]
+    h4 b8[ g16. b32] a8[ d16 c] h8 c
+    d( c4 h8) c4 r
+    R1 %140
+    r8 g e'16([ c) d( h]) c([ h)] c8 r4
+    r8 a d c16 d h!8 g c e
+    a,[ c] d4. c8[ h d]
+    e4. d8 c[ e] f4~
+    f8[ d] b([ a)] gis4. fis16[ gis] %145
+    a[ e' d c] h4 a r
+    R1
+    r4 c8 c f16([ e d c] h!_[ a)] gis([ fis)]
+    e8( a4 gis8) a4 r
+    R1 %150
+    R\fermata \bar "||" %151 finis
+  }
+}
+
+QuiSedesSopranoLyrics = \lyricmode {
+  Qui se -- _ des %135
+  ad dex -- te -- ram Pa --
+  tris: Mi -- se -- re -- _
+  _ _ _ _ re
+  no -- bis.
+  %140
+  Qui se -- _ des
+  ad dex -- te -- ram Pa -- tris: Mi -- se --
+  re -- _ _
+  _ _ _ _
+  re __ no -- _ %145
+  _ _ bis,
+
+  mi -- se -- re -- re
+  no -- bis. %149 finis
+}
+
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

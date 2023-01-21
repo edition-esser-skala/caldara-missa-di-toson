@@ -614,3 +614,56 @@ QuiTollisBassFigures = \figuremode {
   <5+ \t> <\t _+>1
   <_+>1. %130 finis
 }
+
+QuiSedesOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoQuiSedes
+      \set Score.currentBarNumber = #131
+    \mvTr a4.\fE-\soloE e'8 f cis d a
+    d4. d8 e4 fis8 h,
+    e e a a, d d g g,
+    c c f cis d dis e e,
+    a4. e'8\pE a, a' f16 d e cis %135
+    d4 a8 a' g f16 e f4
+    e gis8 e a,4 d
+    g, c f4. e8
+    d e16 f g8 g, c4. g'8\fE
+    e c d d, g c f! g %140
+    c,4. g'8\pE e c' a16 f g e
+    f4 d g e8 c
+    f a d, f g4. f8
+    e g a4. g8 f e
+    d2~ d8 f e d %145
+    c d e e, a a'\fE fis4
+    e a, d g,
+    c f!\pE d dis
+    e8 d e e, a4. e'8\fE
+    cis4 d8 a d4 e8 a, %150
+    e' dis e e, a2\fermata \bar "||" %151 finis
+  }
+}
+
+QuiSedesBassFigures = \figuremode {
+  r4. <_+>4 <[6]> <7! _+>8 %131
+  r4. <6>8 <_+>4 <6\\>8 <7 [5+ _+]>
+  <7! _+>4 q q <7!>
+  <7->4. \bo <[6 _]>4 \bc <[7! _+]>8 <[5!] _+>4
+  r4. <_+>8 r4 \bo <[6]>8 <6\\> %135
+  r4 \bc <[_!]> <6> <7>8 <6>
+  <_+>2 <8 _+>8 <7! \t> <7! _+>4
+  <7!> <7-> <5>8 <6> <4! 2> <[6]>
+  r <6> <4> <3> r2
+  <[6]>4 <6 4>8 <[7] _+> r4 <6 5> %140
+  r2 \bo <[6 _]>4 <6>8 <6 _->
+  r2 <_!>4 \bc <[6 _]>
+  r1
+  r
+  <5>4 <6->8 <[5]> \bo <[6!] 4\+>4. \once \bassFigureExtendersOn <6! 4\+>8 %145
+  <6>4 \bc <[_+]>2 <6\\>4
+  <7! _+> q q <7!>
+  <7->2. <[6! _+]>4
+  <_+>8 \bo <[5]> <4> \bc <[_+]>2 <_+>8
+  <[6]>4. <7! _+>8 <5> <6-> \bo <[5!] _+> \bc <[_!]> %150
+  <_+> <7 [_+]> <4> <_+> r2 %151 finis
+}

@@ -267,3 +267,26 @@ QuiTollisViolinoI = {
     e1.\fermata \bar "||" %130 finis
   }
 }
+
+QuiSedesViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoQuiSedes
+      \set Score.currentBarNumber = #131
+    r2 r8 a''\fE f16( d) e( cis)
+    d8 a'16 g f e d c h4 r8 a'
+    gis4\trill g8 a,16. g'32 fis4 f8 g,16. f'32
+    e4 f8 e d c! h!4
+    a r r2 %135
+    R1*4
+    r8 c' h16( g) a( fis) g( d) e( c) d4 %140
+    c r r2
+    R1*4 %145
+    r2 r4 r8 a'
+    gis4 g8 a,16. g'32 fis4 f8 g,16. f'32
+    e4 r r2
+    r1
+    r8 a f16( d) e( cis) d4~ d16 h c a %150
+    gis8 a4 gis8 a2\fermata \bar "||" %151 finis
+  }
+}

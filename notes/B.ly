@@ -388,6 +388,50 @@ QuiTollisBassoLyrics = \lyricmode {
   o -- %125
   nem
   no --
-  
+
   stram. %130 finis
+}
+
+QuiSedesBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoQuiSedes
+      \set Score.currentBarNumber = #131
+    R1*4
+    r2 r8 \mvTr a'\pE^\soloE f16([ d) e( cis)] %135
+    d([ cis)] d8 r a' g f16 e f4
+    e r a8 e16([ g!)] fis4
+    f8[ d16. f32] e4 f4. e8
+    d[( e16 f] g4) c, r
+    R1 %140
+    r2 r8 c' a16([ f) g( e)]
+    f([ e)] f8 r d g f16 g e8 c
+    f a d,[ f] g4. f8
+    e[ g] a4. g8[ f e]
+    d2~ d8[ f] e([ d]) %145
+    c([ d] e4) a,^\critnote r
+    R1
+    r4 f'8 f d d dis dis
+    e f e4 a, r
+    R1 %150
+    R\fermata \bar "||" %151 finis
+  }
+}
+
+QuiSedesBassoLyrics = \lyricmode {
+  Qui se -- %135
+  _ des ad dex -- te -- ram Pa --
+  tris: Mi -- se -- re --
+  _ _ _ re
+  no -- bis.
+  %140
+  Qui se --
+  _ des ad dex -- te -- ram Pa -- tris:
+  Mi -- se -- re -- _ _
+  _ _ _
+  _ re __ %145
+  no -- bis,
+
+  mi -- se -- re -- re, mi -- se --
+  re -- re no -- bis. %149 finis
 }
