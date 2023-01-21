@@ -667,3 +667,139 @@ QuiSedesBassFigures = \figuremode {
   <[6]>4. <7! _+>8 <5> <6-> \bo <[5!] _+> \bc <[_!]> %150
   <_+> <7 [_+]> <4> <_+> r2 %151 finis
 }
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    \mvTr c'4.\fE-\tuttiE c,8 e g
+    c4 c,8 c e g
+    c4 c,8 c e d16 c
+    g'8 g, g g g g %155
+    g4 r \clef treble \mvTr g''\pE-\solo ^\tweak TextScript.X-offset #0 ^\critnote
+    \clef "treble_8" c,4. a8 d4~
+    d8 c h c16 d g,4~
+    g8 a16 h c4. h8
+    \clef bass a4 d,8 c d4 %160
+    g, r r
+    \mvTr g'4.\fE-\tutti g,8 h d
+    g4. g,8 h d
+    g4.^\critnote g,8 h g \noBreak
+    c4 c, r %165
+    \time 4/4 \tempoJesu r4 b'2 b4 \noBreak
+    a2 d4 e \noBreak
+    f2 e\fermata \bar "||"
+    \clef treble \tempoCumSancto c''2 c \noBreak
+    c c4. c8 %170
+    g c d h c4 g
+    a2 << {
+      g4 r8 h
+      c h r h c d e d16 c
+      h8 a h16 c a h c8 h c h16 a
+      h4 c2 h4 %175
+    } \\ {
+      g2
+      g g
+      g4. g8 c, g' a fis
+      g4 c, d2 %175
+    } >>
+    \clef "treble_8" c c
+    c c4. c8
+    g c d h c4 g
+    a2 \clef bass g
+    g g %180
+    g4. g8 c, g' a fis
+    g4 c, d2
+    c8 c f c f c f^\critnote c
+    f g a g16 f e4 fis16 g e fis
+    g8 e f g c, c h4 %185
+    c8 a d d, g g' c g
+    c g \clef "treble_8" c[ h] c d e d16 c
+    h8 a h16 c a h c8 \clef bass e,[ f e]
+    f g a g16 f e8 d e16 f d e
+    f2 e8 e a gis %190
+    r e a e \clef "treble_8" c' h a16 h c d
+    e4. d8 c4 a8 h
+    e, e' f! c d4 e
+    \clef bass a,2 a
+    a a4. a8 %195
+    e a h gis a4 g8 e
+    h e h4 e r8 e
+    a a, r a' f d r d
+    h g r g' e c f4~
+    f f2 f4~ %200
+    f f8. f16 c8 g' a fis
+    g e f! g c,4 h
+    c8 a d d, g g' a g
+    r g f! e r e f c
+    g'2 g %205
+    g g4. g8
+    c, f g e f4 fis
+    g2^\critnote g,
+    c8 g c g c c g4
+    c,1\fermata \bar "|." %210 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r2 \bo <[6]>8 <5> %152
+  r2 <6>8 \bc <[5]>
+  r2.
+  r %155
+  r
+  <5>4 <6> <_+>
+  r <[6]>2
+  r2.
+  r4 <_+>8 \bo <[5]> <_+>4 %160
+  r2.
+  r2 <6>8 <_+>
+  r2 <6>8 \bc <[_+]>
+  r2.
+  r %165
+  r4 <6 4 2>2.
+  <7 _+> <[5!] _+>4
+  <7> <6> <_+>2
+  r1
+  r %170
+  r
+  r
+  r
+  r
+  r %175
+  <[5 3]>4 <6 4>8 <5 3> <6 4> <5 3> <6 4> <5 3>
+  <6 4>2 <[5] 3>4 <6 4\+>
+  r <_!> <9>8 <8> <4> <3>
+  <7>4 <6\\> <[5 3]> <6 4>8 <5 3>
+  <6 4> <5 3> <6 4> <5 3> <6 4>2 %180
+  <5 3>2.. <[6]>8
+  <9> <8>4. <7>4 <6>
+  r1
+  r4 \bo <[6]> \bc q <6 5>
+  r8 <6> q2 <[6]>4 %185
+  <6 5> \bo <[_+]>2.
+  r4 <3>8 q q q q q16 q
+  q8 q q16 q q q q8 <6>4 q8
+  <5>4. \once \bassFigureExtendersOn q8 \bc <[6]>2
+  <7>4 <6> <_+>4. <[6]>8 %190
+  r8 \bo <[_+]>4 \bc q8 <6>2
+  <_+>4. <\t>8 <6>4 <6\\>8 <[5+] _+>
+  <_+>4 <5>8 <[6]> <6 5>4 \bo <[_+ _]>
+  \bc <[5 3]>4 <6 4>8 <5 3> <6 4> <5 3> <6 4> <5 3>
+  <6 4>2 <5 3>4. <[6\\]>8 %195
+  <_+>4 \bo <[5\+]>8 <6> <5> \bc <[6\\]> <6>4
+  \bo <[5+] _+> <5+ 4>8 \bc <[\t] _+> <_+>4. <\t>8
+  <_!>2 \bo <[6]>
+  <6> \bc <[6]>
+  r1 %200
+  r2.. \bo <[6]>8
+  r \bc q <6>2 <[6]>4
+  <6 5> <[_+]>4. <6>8 <6!> <6>
+  r q q q4 \bo <[6 _]>8 <6>4
+  \bc <[5 3]> <6 4>8 <5 3> <6 4> <5 3> <6 4> <5 3> %205
+  <6 4>2 <5 3>
+  r4 <_->8 \bo <[6]>4. <6>8 \bc <[5]>
+  <5 _!>4 <6 4> <5 \t> <\t 3>
+  r1
+  r %210 finis
+}

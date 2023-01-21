@@ -306,3 +306,120 @@ QuiTollisTenoreLyrics = \lyricmode {
   no --
   stram. %130 finis
 }
+
+QuoniamTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    \mvTr e8.\fE^\tutti e16 e8 e e d
+    e4 e8 e e d
+    e8. e16 e8 e e e16 e
+    d8. d16 d4 r %155
+    R2.
+    \mvTr c4.\pE^\solo a8 d4~
+    d8[ c] h[ c16 d] g,4~
+    g8[ a16 h] c4. h8
+    a[ h16 c] d8 e a,4 %160
+    g2 r4
+    \mvTr d'8.\fE^\tutti d16 d8 d d d
+    d4 d8 d d d
+    d8. d16 d8 d d d16 d \noBreak
+    e8. e16 e4 r %165
+    \time 4/4 \tempoJesu r4 e2 e4 \noBreak
+    e a, a gis \noBreak
+    a2 h\fermata \bar "||"
+    \tempoCumSancto R1*7 %175
+    c2 c
+    c c4. c8
+    g c d h c4 g8 g
+    a2 g4 r8 h(
+    c) h r h c[ d] e[ d16 c] %180
+    h8[ a] h16[ c a h] c8[ h] c[ h16 a]
+    h8 h c2( h4)
+    c8 e([ f)] e r e f[ e16 d]
+    c8[ h a h] c[ d16 e] d4~
+    d8 c f! d e4 d8 d %185
+    e4( d) d8 h([ c)] h
+    r h[ c h] c[ d] e[ d16 c]
+    h8[ a] h16[ c a h] c2~
+    c1~
+    c8[ h] a4 h8 h([ c)] h %190
+    r h([ c)] h c[ h] a16[ h c d]
+    e4. d8 c4 a8[ h]
+    e,[ e' f! c] d4 e
+    e8 c([ d)] c r c([ d)] c
+    a4 a a a8 a %195
+    h a d e a,4 e'8 e
+    dis( e4 dis8) e4 r8 e(
+    c) a r c( d) d r d(
+    g,) g r h( g) e r4
+    f'2 f %200
+    f4 f8. f16 e8 d c d
+    h c f! d e4 d8 d
+    e4( d) d8 e([ f!)] e
+    r e([ d)] c r g'([ f e)]
+    d h([ c)] h r h[ c h] %205
+    c[ d] e[ d16 c] h8[ a] h16[ c a h]
+    c8 a d e c4 a8 d
+    d d e4( d2)
+    e8 h([ c)] h c c h4
+    c1\fermata \bar "|." %210 finis
+  }
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus %152
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %155
+
+  Je -- _ _
+  _ _
+  _ _
+  _ _ su Chri -- %160
+  ste.
+  Quo -- ni -- am tu so -- lus
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %165
+  Je -- su,
+  Je -- su, Je -- su
+  Chri -- ste.
+
+  Cum San -- %176
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- _ _ %180
+  _ _ _ _
+  _ men, a --
+  men, a -- men, a -- _
+  _ _ men, __
+  in glo -- ri -- a De -- i %185
+  Pa -- tris, a -- men,
+  a -- _ _
+  _ _ _
+
+  _ men, a -- men, %190
+  a -- men, a -- _
+  _ _ _ _
+  _ _ _
+  men, a -- men, a -- men,
+  cum San -- cto Spi -- ri -- %195
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a --
+  men, a -- men,
+  cum San -- %200
+  cto Spi -- ri -- tu in glo -- ri --
+  a, in glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  a -- men, a --
+  men, a -- men, a -- %205
+  _ _ _ _
+  men, in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a -- men, a --
+  men. %210 finis
+}

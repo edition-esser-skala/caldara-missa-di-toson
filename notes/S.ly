@@ -430,13 +430,122 @@ QuiSedesSopranoLyrics = \lyricmode {
   no -- bis. %149 finis
 }
 
+QuoniamSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    \mvTr c'8.\fE^\tutti c16 c8 c c h
+    c4 c8 c c h
+    c8. c16 c8 c c c16 c
+    h8. h16 h4 r %155
+    R2.*6 %161
+    \mvTr h8.\fE^\tuttiE h16 h8 h h a
+    h4 h8 h h a
+    h8. h16 h8 h d c16 h \noBreak
+    c8. c16 c4 r %165
+    \time 4/4 \tempoJesu r4 c2 c4 \noBreak
+    cis cis d h! \noBreak
+    a2 gis\fermata \bar "||"
+    \tempoCumSancto c c \noBreak
+    c c4. c8 %170
+    g c d h c4 g8 g
+    a2 g4 r8 h(
+    c) h r h c[ d] e[ d16 c]
+    h8[ a] h16[ c a h] c8[ h] c[ h16 a]
+    h8 h c2( h4) %175
+    c8 g([ a)] g r g[ a g]
+    a[ h] c[ h16 a] g8 g a16[ h g a]
+    h8[ c a] d4 c h8
+    c[ h] a[ h16 c] h4 r8 d(
+    e) d r4 r2 %180
+    R1*2
+    c2 c
+    c c4. c8
+    g c d h c4 g8 g %185
+    a2 g4 r8 d'(
+    e) d r4 r2
+    r r8 g,[ a g]
+    a[ h] c[ h16 a] g8[ a16 h] c8[ h]
+    a2 gis4 r8 e' %190
+    e2 e
+    e4. e8 a, e' fis dis
+    e4 a,8 a h2
+    a4 r8 c( d) c r c
+    d[ e] f[ e16 d] c8[ h] c[ d16 c] %195
+    h8[ c] d[ c16 h] c8[ d16 c] h8 h
+    h h h4 h8 h([ c)] h
+    r c([ d)] c r a([ h)] a
+    r h([ c)] h c2
+    c c %200
+    c8. c16 c4 r2
+    r8 c d h c4 g8 g
+    a2 g4 r8 h(
+    c) h r c( d) c d([ c)]
+    h d([ e)] d r d[ e d] %205
+    e[ f] g[ f16 e] d8[ c] d16[ e c d]
+    e8 c b c a4 d8 c
+    h h c2( h4)
+    c8 d([ e)] d e e d4
+    e1\fermata \bar "|." %210 finis
+  }
+}
 
-% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+QuoniamSopranoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus %152
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus. %155
 
+  Quo -- ni -- am tu so -- lus %162
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %165
+  Je -- su,
+  Je -- su, Je -- su
+  Chri -- ste.
+  Cum San --
+  cto Spi -- ri -- %170
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- _ _
+  _ _ _ _
+  _ men, a -- %175
+  men, a -- men, a --
+  _ _ men, a -- _
+  _ _ _ _
+  _ _ men, a --
+  men, %180
 
-% ## Credo
+  cum San -- %183
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i %185
+  Pa -- tris, a --
+  men,
+  a --
+  _ _ _ _
+  _ men, cum %190
+  San -- cto
+  Spi -- ri -- tu in glo -- ri --
+  a De -- i Pa --
+  tris, a -- men, a --
+  _ _ _ _ %195
+  _ _ _ _ men,
+  a -- men, a -- men, a -- men,
+  a -- men, a -- men,
+  a -- men, cum
+  San -- cto %200
+  Spi -- ri -- tu
+  in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a --
+  men, a -- men, a -- %205
+  _ _ _ _
+  men, in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a -- men, a --
+  men. %210 finis
+}
 
 % Cre -- do in u -- num De -- um,
 % Pa -- trem o -- mni -- po -- ten -- tem,

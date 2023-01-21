@@ -78,3 +78,49 @@ GloriaClarinoII = {
     R1\fermata \bar "||" %98 finis
   }
 }
+
+QuoniamClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    e'8.\fE e16 e8 e e d
+    e c16 d e f e f e8 d
+    e8. e16 e8 e e e
+    d g, d' d d g, %155
+    d'4 r r
+    R2.*4 %160
+    d4\fE r r
+    d r r
+    d r r
+    r8 d d d d d \noBreak
+    e4 r r %165
+    \time 4/4 \tempoJesu R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoCumSancto R1*10 %178
+    r2 r8 g, c g
+    r g c g c d e d16 c %180
+    d8 g, g4 g r
+    R1
+    r8 e' f e r e f e
+    R1
+    r2 r4 d %185
+    e8 e d4 d r8 g,
+    c g r4 r2
+    R1*6 %193
+    r4 r8 c d c r4
+    R1*3 %197
+    r8 c d c r2
+    r8 d c d e4 r
+    R1*2 %201
+    r2 r4 d8 g,
+    e' c d_\critnote c16 d d4 r
+    R1
+    r8 d e d r d e d %205
+    e d c d16 e d8 c d16 e c d
+    e8 c b c c c d d
+    d4 c d2
+    c8 d c d c g g4
+    e1\fermata \bar "|." %210 finis
+  }
+}

@@ -290,3 +290,66 @@ QuiSedesViolinoI = {
     gis8 a4 gis8 a2\fermata \bar "||" %151 finis
   }
 }
+
+QuoniamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    g''8.\fE f16 e g f g e8 d
+    e c16 d e f e f e8 d
+    e16 c e g e c e g e c d e
+    d g fis g h, g' fis g h, g' fis g %155
+    h, h c d e fis g a h4
+    R2.*4 %160
+    g8.\fE g16 g8 g, h d
+    g g16 a h8 g^\critnote g fis
+    g g16 a h8 g^\critnote g fis
+    g16 d d d g d d d g d d d \noBreak
+    e8 c e g c4 %165
+    \time 4/4 \tempoJesu r4 c,2 c4 \noBreak
+    cis2 d4 h^\critnote \noBreak
+    a2 gis\fermata \bar "||"
+    \tempoCumSancto c c \noBreak
+    c c4. c8 %170
+    g c d h c4 g8 g
+    a2 g4 r8 h
+    c h r h c d e d16 c
+    h8 a h16 c a h c8 h c h16 a
+    h8 h c2 h4 %175
+    c8 g a g r g a g
+    a h c h16 a g8 g a16 h g a
+    h8 c a d4 c h8
+    c h a h16 c h4 r8 d
+    e d r4 r2 %180
+    R1*2
+    c2 c
+    c c4. c8
+    g c d h c4 g8 g %185
+    a2 g4 r8 d'
+    e d r4 r2
+    r r8 g, a g
+    a h c h16 a g8 a16 h c8 h
+    a2 gis4 r8 e' %190
+    e2 e
+    e4. e8 a, e' fis dis
+    e4 a,8 a h2
+    a4 r8 c d c r c
+    d e f e16 d c8 h c d16 c %195
+    h8 c d c16 h c8 d16 c h8 h
+    h h h4 h8 h c h
+    r c d c r a h a
+    r h c h c2
+    c c %200
+    c8. c16 c4 r2
+    r8 c d h c4 g8 g
+    a2 g4 r8 h
+    c h r c d c d c
+    h d e d r d e d %205
+    e f g f16 e d8 c d16 e c d
+    e8 c b c a4 d8 c
+    h h c2 h4
+    c8 d e d e e d4
+    e1\fermata \bar "|." %210 finis
+  }
+}

@@ -435,3 +435,102 @@ QuiSedesBassoLyrics = \lyricmode {
   mi -- se -- re -- re, mi -- se --
   re -- re no -- bis. %149 finis
 }
+
+QuoniamBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    \mvTr c'8.\fE^\tutti c16 c8 c, e g
+    c4 c,8 c e g
+    c8. c,16 c8 c e d16 c
+    g'8. g16 g4 r %155
+    R2.*6 %161
+    \mvTr g8.\fE^\tutti g16 g8 g, h d
+    g4 g8 g, h d
+    g8. g16 g8 g h a16 g \noBreak
+    c8. c16 c4 r %165
+    \time 4/4 \tempoJesu r b,2 b4 \noBreak
+    a a d e \noBreak
+    f2 e\fermata \bar "||"
+    \tempoCumSancto R1*10 %178
+    r2 g
+    g g %180
+    g4. g8 c, g' a fis
+    g4 c,8 c d2
+    c4 r8 e( f) e r e
+    f[ g] a[ g16 f] e8 e( fis16[ g e fis)]
+    g8 e f g c,4 h8 h %185
+    c([ a] d4) g, r8 g'(
+    c) g r4 r2
+    r r8 e[ f e]
+    f[ g] a[ g16 f] e8[ d] e16[ f d e]
+    f2 e8 e([ a)] gis %190
+    r e([ a)] e r2
+    R1*2
+    a2 a
+    a a4. a8 %195
+    e a h gis a4 g8 e
+    h' e, h4 e r8 e(
+    a) a, r a'( f) d r
+    d( h) g r g'( e) c f4~
+    f f2 f4~ %200
+    f f8. f16 c8 g' a fis
+    g e f g c,4 h8 h
+    c([ a] d4) g,8 g'([ a)] g
+    r g([ f!)] e r e([ f)] c
+    g'2 g %205
+    g g4. g8
+    c, f g e f4 fis8 fis
+    g4 g g2
+    c,8 g'([ c)] g c c, g4
+    c1\fermata \bar "|." %210 finis
+  }
+}
+
+QuoniamBassoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus %152
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus.
+
+  Quo -- ni -- am tu so -- lus %162
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %165
+  Je -- su,
+  Je -- su, Je -- su
+  Chri -- ste.
+
+  Cum %179
+  San -- cto %180
+  Spi -- ri -- tu in glo -- ri --
+  a De -- i Pa --
+  tris, a -- men, a --
+  _ _ \xE men, a --
+  \x men, in glo -- ri -- a De -- i %185
+  Pa -- tris, a --
+  men,
+  a --
+  _ _ _ _
+  _ men, a -- men, %190
+  a -- men,
+
+  cum San -- %194
+  cto Spi -- ri -- %195
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a -- men, a --
+  men, a -- men, a --
+  men, a -- men, cum __
+  San -- cto __ %200
+  Spi -- ri -- tu in glo -- ri --
+  a, in glo -- ri -- a De -- i
+  Pa -- tris, a -- men,
+  a -- men, a -- men,
+  cum San -- %205
+  cto Spi -- ri --
+  tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a -- men, a --
+  men. %210 finis
+}

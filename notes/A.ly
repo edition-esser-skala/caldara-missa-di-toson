@@ -338,3 +338,128 @@ QuiTollisAltoLyrics = \lyricmode {
   no --
   stram. %130 finis
 }
+
+QuoniamAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    \mvTr g'8.\fE^\tutti g16 g8 g g g
+    g4 g8 g g g
+    g8. g16 g8 g g g16 g
+    g8. g16 g4 r %155
+    r r \mvTr g~\pE^\solo
+    g8[ e] a4. g8
+    fis[ g16 a] d,4. e16[ fis]
+    g4. fis8 e[ fis16 g]
+    a8 g fis g fis4 %160
+    g2 r4
+    \mvTr g8.\fE^\tutti g16 g8 g g fis
+    g4 g8 g g fis
+    g8. g16 g8 g g g16 g \noBreak
+    g8. g16 g4 r %165
+    \time 4/4 \tempoJesu r4 g2 g4 \noBreak
+    g g f e~ \noBreak
+    e d e2\fermata \bar "||"
+    \tempoCumSancto R1*3 %171
+    r2 g
+    g g
+    g4. g8 c, g' a fis
+    g4 c,8 c d2 %175
+    c4 r8 e( f) e r e
+    f[ g] a[ g16 f] e8 e fis16[ g e fis]
+    g8[ e] f[ e16 d] e8 e g4~
+    g fis g8 d([ e)] d
+    r d[ e d] e[ f] g[ f16 e] %180
+    d8[ c] d16[ e c d] e8[ g e a]~
+    a g4 e8 f![ e] d[ e16 f]
+    e4 r8 g( a) g r g
+    a[ g] f[ g16 a] g8 g( a16[ h g a])
+    h8 g a g g4 g~ %185
+    g8 g fis4 g8 d([ e)] d
+    r d[ e d] e[ f] g[ f16 e]
+    d8[ c] d16[ e c d] e8[ c f c]
+    f2 g8[ f] e4~
+    e d e r8 e( %190
+    a) gis r gis a[ h] c[ h16 a]
+    gis8[ fis] gis16[ a fis gis] a8 a^\critnote a[( gis16 fis]
+    gis8) gis a2( gis4)
+    a8 e([ f!]) e r e([ f)] e
+    f[ g] a[ g16 f] e4. fis8 %195
+    gis[ a fis gis] e[ fis g] g
+    fis g fis4 gis8 gis([ a)] gis
+    r e([ f!)] e r f([ g)] f
+    r d([ e)] d r4 a'~
+    a a2 a4~ %200
+    a a8. a16 g8 h a8. a16
+    g8 g a g g4 g~
+    g8 a fis4 g r8 g(
+    a) g r e( f) e a([ g)]
+    g4 g2 g4~ %205
+    g g2 g4~
+    g8 a g g f f16 g a8 a
+    g4 g g2
+    g4 g8 g g g g4
+    g1\fermata \bar "|." %210 finis
+  }
+}
+
+QuoniamAltoLyrics = \lyricmode {
+  Quo -- ni -- am tu so -- lus %152
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %155
+  Je --
+  _ _
+  _ _ _
+  _ _ _
+  _ su, Je -- su Chri -- %160
+  ste.
+  Quo -- ni -- am tu so -- lus
+  san -- ctus, tu so -- lus
+  Do -- mi -- nus, tu so -- lus al --
+  tis -- si -- mus, %165
+  Je -- su,
+  Je -- su, Je -- su __
+  Chri -- ste.
+
+  Cum %172
+  San -- cto
+  Spi -- ri -- tu in glo -- ri --
+  a De -- i Pa -- %175
+  tris, a -- men, a --
+  _ _\xE men, a -- _
+  _ _ _ \x men, a --
+  _ men, a -- men,
+  a -- _ _ %180
+  _ _ _
+  _ _ _ _
+  men, a -- men, a --
+  _ _ \xE men, a --
+  \x men, in glo -- ri -- a De -- %185
+  i Pa -- tris, a -- men,
+  a -- _ _
+  _ _ _
+  _ _ _
+  _ men, a -- %190
+  men, a -- _ _
+  _ _ _ \xE men, a --
+  \x men, a --
+  men, a -- men, a -- men,
+  a -- _ _ _ %195
+  _ _ men,
+  a -- men, a -- men, a -- men,
+  a -- men, a -- men,
+  a -- men, cum __
+  San -- cto __ %200
+  Spi -- ri -- tu in glo -- ri --
+  a, in glo -- ri -- a De --
+  i Pa -- tris, a --
+  men, a -- men, a --
+  men, cum San -- %205
+  cto Spi --
+  ri -- tu in glo -- ri -- a De -- i
+  Pa -- tris, a --
+  men, a -- men, a -- men, a --
+  men. %210 finis
+}

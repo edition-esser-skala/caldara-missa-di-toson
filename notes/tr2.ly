@@ -68,3 +68,42 @@ GloriaTrombaII = {
     R1\fermata \bar "||" %98 finis
   }
 }
+
+QuoniamTrombaII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #152
+    c8.\fE c16 c8 c c g
+    c c c c c g
+    c8. c16 c8 c c c
+    g g16 g g8 g g g %155
+    g4 r r
+    R2.*4 %160
+    g4\fE r r
+    g r r
+    g r r
+    r8 g g g g g \noBreak
+    c4 r r %165
+    \time 4/4 \tempoJesu R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoCumSancto R1*10 %178
+    r2 g4 r
+    g r g r %180
+    g4. g8 c g r4
+    R1
+    r8 c c4 r8 c c4
+    R1*2 %185
+    r2 r8 g c g
+    r g c g r2
+    R1*11 %198
+    r8 g c g c4 r
+    R1*5 %204
+    r4 r8 g c g r g %205
+    c g r4 g4. g8
+    c4 r r2
+    g4 g g8 g g4
+    c8 g c g c c g4
+    c1\fermata \bar "|." %210 finis
+  }
+}
