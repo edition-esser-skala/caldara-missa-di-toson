@@ -539,3 +539,78 @@ GloriaBassFigures = \figuremode {
   r
   r %98 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #99
+    \mvTr g2\pE-\soloE b d
+    g g, r %100
+    R1.
+    g2 b d
+    g g, r
+    R1.
+    c2 es g %105
+    c \mvTr c,\fE-\tuttiE c
+    b b b
+    a a a
+    gis gis gis
+    a1. %110
+    d2 f a
+    \mvTr d\pE-\soloE d, r
+    R1.
+    g,2 b d
+    g g, r %115
+    R1.
+    d'2 fis a
+    \mvTr d\fE-\tuttiE d, d
+    c! c c
+    h!1. %120
+    R\fermata
+    \clef treble g''2 h dis
+    \clef bass g,, e c
+    ais1.
+    h~ %125
+    h~
+    h~
+    h~
+    h
+    e,\fermata \bar "||" %130 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  <[_-]>1 <_+>2 %99
+  <_->1. %100
+  r
+  <[_-]>1 <_+>2
+  <_->1.
+  r
+  <_->1 <_!>2 %105
+  <_->1.
+  <4! 2>
+  <[7] _+>
+  <7 [_!]>
+  <4>2 <_+>1 %110
+  r1 <_+>2
+  r1.
+  r
+  <[_-]>1 <_+>2
+  <[_-]>1. %115
+  r
+  <_+>1 q2
+  <_+>1.
+  <6 4\+ 2\+>
+  <7 [5+] _+> %125
+  r
+  r
+  <6>1.
+  <6 5 [_+]>
+  \bo <[8 5+] _+>2 \bassFigureExtendersOn <9! 5+ _+> \bc <[8 5+] _+> \bassFigureExtendersOff %125
+  <7 [5+ _+]> <6 4> <7 5+ _+>
+  <6 4> <7 [5+] _+> <6 4>
+  <[5+] _+>1 <6 4>2
+  <5+ \t> <\t _+>1
+  <_+>1. %130 finis
+}

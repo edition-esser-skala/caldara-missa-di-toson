@@ -194,3 +194,43 @@ GloriaViolinoII = {
     b1\fermata \bar "||" %98 finis
   }
 }
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #99
+    R1.
+    b'4\pE b b b b b %100
+    c c c c c c
+    b b, b'2 r
+    b4 b b b b b
+    as as as as as as
+    g2 g, r %105
+    r es'\fE es
+    e e e
+    e e e
+    f f f
+    e e e %110
+    d1 r2
+    f4\pE f f f f f
+    es es es es es es
+    d2 r r
+    r d'4 d g, g %115
+    g g g g g g
+    fis1.
+    a2\fE a a
+    a a a
+    a1. %120
+    R\fermata
+    R
+    e'2 e e
+    e e e
+    dis1.~ %125
+    dis2 e dis
+    e dis e
+    fis1 e2
+    fis1.
+    e\fermata \bar "||" %130 finis
+  }
+}

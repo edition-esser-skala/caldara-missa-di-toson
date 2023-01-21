@@ -128,3 +128,43 @@ GloriaTromboneI = {
     R1\fermata \bar "||" %98 finis
   }
 }
+
+QuiTollisTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/2 \tempoQuiTollis
+      \set Score.currentBarNumber = #99
+    R1.
+    g'4\pE g g g g g %100
+    fis fis fis fis fis fis
+    g2 g, r
+    g'4 g g g g g
+    f! f f f f f
+    es2 es, r %105
+    r g'\fE g
+    g g g
+    g g g
+    h! h h
+    a a a %110
+    a1 r2
+    d,4\pE d d d d d
+    c! c c c c c
+    b2 r r
+    b'4 b g g es es %115
+    cis cis cis cis cis cis
+    d1.
+    fis2\fE fis fis
+    fis fis fis
+    fis1. %120
+    R\fermata
+    R
+    e2 h c
+    cis cis cis
+    h c h %125
+    a h a
+    g a g
+    fis1 g2
+    h1.~
+    h\fermata \bar "||" %130 finis
+  }
+}

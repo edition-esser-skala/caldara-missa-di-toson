@@ -322,11 +322,70 @@ GloriaSopranoLyrics = \lyricmode {
   ter o -- mni -- po -- tens. %43 finis
 }
 
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #99
+    R1.
+    \mvTr d'\pE^\solo %100
+    es
+    d
+    d2 d d
+    h!1.
+    c %105
+    r2 \mvTr c\fE^\tuttiE c
+    c1 c2
+    cis1.
+    d~
+    d2 cis1 %110
+    d1.
+    R1.*6 %117
+    \mvTr a2.\fE^\tuttiE a4 a2
+    a a a
+    a2. a4 a2 %120
+    R1.\fermata
+    g2( h) dis
+    e1 e2
+    e1.
+    dis~ %125
+    dis2 e dis
+    e dis e
+    h1.~
+    h
+    h\fermata \bar "||" %130 finis
+  }
+}
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui %100
+  tol --
+  lis
+  pec -- ca -- ta
+  mun --
+  di: %105
+  Mi -- se --
+  re -- re
+  no --
+  _
+  _ %110
+  bis.
+
+  Su -- sci -- pe, %118
+  su -- sci -- pe,
+  su -- sci -- pe %120
+
+  de -- pre --
+  ca -- ti --
+  o --
+  _ %125
+  _ _
+  _ _ nem
+  no --
+
+  stram. %130 finis
+}
+
 % Qui se -- des ad dex -- te -- ram Pa -- tris:
 % Mi -- se -- re -- re no -- bis.
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
