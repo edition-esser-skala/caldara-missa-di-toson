@@ -613,3 +613,107 @@ CredoBassoLyrics = \lyricmode {
   fa -- ctus
   est. %43 finis
 }
+
+CrucifixusBassoI = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #44
+    r2 \mvTr f4\p^\solo g
+    as e f8. f16 f,8 es' %45
+    des4. d8 es[ b es, des']
+    c as'4 g f e8
+    as4 g f2
+    e r
+    r r8 c' as f %50
+    des4 es c8 as es'4~
+    es d r8 g es c
+    d4 g es8 c r4
+    c' b as g
+    f8 b g as4( f8) g8. g16 %55
+    as4 r r2
+    r8 as f des b4 c
+    as8 f f'2 e4
+    f8 f des4 c c'~
+    c b c8 b4 as8~ %60
+    as g4( f e8) as4~
+    as8 g4 f e8 f4~
+    f e f2
+    R1\fermata \bar "||" %63 finis
+  }
+}
+
+CrucifixusBassoILyrics = \lyricmode {
+  Cru -- ci -- %44
+  fi -- xus e -- ti -- am pro %45
+  no -- _ _
+  _ _ _ _ _
+  _ _ _
+  bis,
+  sub Pon -- ti -- %50
+  o Pi -- la -- to pas --
+  sus, sub Pon -- ti --
+  o Pi -- la -- to
+  pas -- sus et se --
+  pul -- tus, et se -- pul -- tus %55
+  est,
+  sub Pon -- ti -- o Pi --
+  la -- to pas -- sus
+  et se -- pul -- tus est, __
+  se -- pul -- tus est, __ %60
+  se -- pul --
+  tus, et se -- pul --
+  tus est. %63 finis
+}
+
+CrucifixusBassoII = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \autoBeamOff \tempoCrucifixus
+      \set Score.currentBarNumber = #44
+    \mvTr f4\p^\solo g as e
+    c'8. c16 c,8 b' as4. a8 %45
+    b[ f b, as'] g4. g8
+    as4 b as g~
+    g8 f4 es8 des2
+    c r8 c' as f
+    des4 es c8 as as'4~ %50
+    as g r8 as g es
+    f4 b g8 es c'4~
+    c h r8 c4 b8~
+    b as4 g f es!8~
+    es des4( c8) des4 es %55
+    as, r r2
+    R1
+    r8 as' f des b4 c
+    as8 f b2 a4
+    b8([ c)] des4 c2~ %60
+    c1~
+    c2. h4
+    c4. c8 f,2
+    R1\fermata \bar "||" %64 finis
+  }
+}
+
+CrucifixusBassoIILyrics = \lyricmode {
+  Cru -- ci -- fi -- xus %44
+  e -- ti -- am pro no -- _ %45
+  _ _ _
+  _ _ _ _
+  _ _ _
+  bis, sub Pon -- ti --
+  o Pi -- la -- to pas -- %50
+  sus, sub Pon -- ti --
+  o Pi -- la -- to pas --
+  sus, pas -- sus __
+  et se -- pul -- tus, __
+  se -- pul -- tus %55
+  est,
+
+  sub Pon -- ti -- o Pi --
+  la -- to, pas -- sus
+  et __ se -- pul -- %60
+
+  _
+  _ tus est. %63 finis
+}

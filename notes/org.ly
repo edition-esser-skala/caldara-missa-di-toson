@@ -899,3 +899,56 @@ CredoBassFigures = \figuremode {
   <5- 4->2 <\t 3>
   \bc <[5-]>1 %43 finis
 }
+
+CrucifixusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoCrucifixus
+      \set Score.currentBarNumber = #44
+    \mvTr f,8\p-\solo f' e c r f e c
+    r f e c r f f, es' %45
+    r des b d r es es, des'
+    r c des es r f b, c
+    r f b, c r des des, des'
+    r c e c r f as f
+    r des es es, r c'' as f %50
+    r des es es, r as' g es
+    r f b b, r g' es c
+    r d g g, r c es e
+    r f des es r des b c
+    r des b c r des es es, %55
+    r as c as r es' g e
+    r f des b r b c c,
+    r f' des b r b c c,
+    r f' b b, r es f f,
+    b c des4 c2~ %60
+    c1~-\tasto
+    c2. h4
+    c2 f,4 r8 f'
+    des b c c, f2\fermata \bar "||" %64 finis
+  }
+}
+
+CrucifixusBassFigures = \figuremode {
+  r4 <[6]>8 <7 _!>4. <[6]>8 <7 _!> %44
+  r4 <[6]>8 <7 _!>2 <4!>8 %45
+  r \bo <[6]> \bc <[_-]> <5->2 <4>8
+  r <[6]> <6 5> <[7-]>4. <6 5 _->8 <_!>
+  r4 <6 5 [_-]>8 <_->4 <7>8 <6>4
+  r8 <[_!]>2..
+  r8 <6 5>2 <6>4. %50
+  r8 \bo <[6 5]>2 r8 \bc <[6 _]>4
+  r8 <7> <[_!]>4. <6>8 q q
+  r <7> <_!>2 r8 <6 5->
+  r4 <6 5>2 <6 5 _->8 <_->
+  r8 <[6]> <6 _-> \bo <[6]>4 \bc q4. %55
+  r1
+  r4. \bo <[_-]>4 <\t>8 <_!>4
+  r4. <_->4 <\t>8 <_!>4
+  r \bc <[_-]>4. <6 5>8 <_!>4
+  <9 _-> <6> <_!>2 %60
+  r1
+  r2. <7->4
+  <4> <_!>2.
+  <6>8 <7 [_-]> <_!>2. %64 finis
+}

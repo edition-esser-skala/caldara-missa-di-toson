@@ -358,3 +358,32 @@ CredoViolinoII = {
     as1\fermata \bar "||"
   }
 }
+
+CrucifixusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoCrucifixus
+      \set Score.currentBarNumber = #44
+    r4 r8 e\p f c r e
+    f c r c c c r c %45
+    des b r b b g r es'
+    es c r g' as c, r c'
+    c as r c, f f r des'
+    g, c, r g' as as, r as'
+    as as r g as as, r as' %50
+    f f r es as as, r es'
+    as as r f g g, r as'
+    f f r g g es r g
+    f f r es es des r es
+    f f r es f f r es %55
+    c as r as' as g r g
+    g f r f des b r e
+    f as r b g g r c,
+    c c r b es es r f
+    f4. f8 e4. f8 %60
+    des es c des b c c4
+    d8 e f4 c' d!
+    c c,-\critnote c f~
+    f e f2\fermata \bar "||"
+  }
+}
