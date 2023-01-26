@@ -124,3 +124,23 @@ QuoniamClarinoII = {
     e1\fermata \bar "|." %210 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1*5 %5
+    r4 d'8\fE d c4 d8 d
+    c8. c16 d4 r2
+    r4 c2 g4
+    e8 c' d4 c r
+    R1*21 %30
+    r8 d\fE d d16 d c8. d16 e8 d
+    c d c d c16 d c d e4
+    R1
+    r4 c d c \noBreak
+    d2 c\fermata \bar "||" %35
+    \tempoEtIncarnatus R1*7 %42
+    R1\fermata \bar "||" %43 finis
+  }
+}

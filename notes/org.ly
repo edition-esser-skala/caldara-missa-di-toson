@@ -803,3 +803,99 @@ QuoniamBassFigures = \figuremode {
   r1
   r %210 finis
 }
+
+CredoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    \mvTr c8\pE-\solo c' h a h a h g
+    c c, d e f f, e e'
+    d c d g, c d c h
+    a g a a' g g h g
+    c c, h h' a g a d, %5
+    g g, \mvTr h\fE-\tutti g c c g' g,
+    c c g' g, r2
+    c'8 g a e f4 g
+    c,8 c g4 c c'~
+    c h c8 c, e c %10
+    d e f d a' a, a' g
+    f2 e8 d c h
+    a a h c d4 a
+    e'8 d e e, a4. a8-\solo
+    h4. cis8 d4. d8\p %15
+    e4. fis8 g4. g,8
+    a4. h8 c!4. c8
+    h4. h8 a4. a8
+    g4. c8 d c d d,
+    g4 g' d2 %20
+    dis e
+    g8 fis16 e a8 ais h4. dis,8
+    e fis g h c d e gis,
+    a4. h8 c4. h16 a
+    h4 c a h %25
+    e,4. c8 d4 g~
+    g8 a fis g e4 fis
+    g d4. e8 fis4
+    g8 a h4 a8 g fis e
+    d4 g8 c, d c d d, %30
+    g \mvTr g'\fE-\tutti h a16 g c4 c,8 g'
+    c g c g c4 c,
+    c'8 g a e f c d a
+    h4 c g2~ \noBreak
+    g c\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 cis2 cis4 \noBreak
+    d2 r4 \clef treble a''
+    f \clef bass d, b a8 g
+    es'2 d4 f!~
+    f f es2 %40
+    r4 f g as
+    es1 \noBreak
+    as,\fermata \bar "||" %43 finis
+  }
+}
+
+CredoBassFigures = \figuremode {
+  r2 \bo <[6]>
+  r2. \bc q4
+  <7> <6>2.
+  r4. <6\\>8 r2
+  r4 <[6]> <7> <6\\> %5
+  r1
+  r
+  r4. <[6]>8 <6 5>2
+  r4 <4>8 <3> r2
+  <2>4 <\t> <9> <6> %10
+  <9> <[6]> <6 4> <[5] 3>
+  <7> <6> <_+> \bo <[6]>8 \bc <[6\\]>
+  r1
+  <4>4 <_+>2.
+  <6!>2 <_+> %15
+  <6!>1
+  <6!>2.. <6>8
+  <7>4 <6> <7> <6\\>
+  r2 <4>4 <_+>
+  r2 <6 4>4 <[5] _+> %20
+  <6 5 [_+]>2 <9\\ 4>4 <8 3>
+  \bo <[6 _ _]>4 <8 6\\>8 <7 5 _+> <5+ _+>4. <6 _+>8
+  r <6\\> <6> \bc <[5+ _+ _]> r4 <6>8 <[6]>
+  r4. <6\\>8 <6>4. \bo <[\tllur]>16 \bc <[6\\]>
+  <7 [5+] _+>4 <[_!]> <6\\ 5> <[5+] _+> %25
+  r4. <6>8 <_+>4. \bo <[6]>8
+  <4\+> <\t> \bc <[6]>4 <7> <6 5>
+  r <_+>2 <[6]>4
+  r1
+  <7 [_+]>2 \bo <[4]>4 \bc <[_+]> %30
+  r1
+  r
+  r4. \bo <[6]>2 \bc q8
+  <6 5>2 <[5 3]>4 <6 4>
+  <5 \t> <\t 3>2. %35
+  r4 <7->2.
+  r1
+  r2 <6>4. \once \bassFigureExtendersOn q8
+  <7 [5-]>4 <6> <_+> <6 4!>
+  r2 \bo <[7]>4 \bc <[6]> %40
+  r <6- [_-]> <6- 5- [_-]> \bo <[5-]>
+  <5- 4->2 <\t 3>
+  \bc <[5-]>1 %43 finis
+}

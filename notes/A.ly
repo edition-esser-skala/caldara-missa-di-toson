@@ -463,3 +463,85 @@ QuoniamAltoLyrics = \lyricmode {
   men, a -- men, a -- men, a --
   men. %210 finis
 }
+
+CredoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr c2\pE^\solo g'
+    e a4 g
+    f2 e
+    e4 e8 fis g d g4~
+    g g4. g8 fis4 %5
+    g \mvTr g8\fE^\tutti g g4 g8 g
+    g8. g16 g4 r2
+    r4 c8 g a a g8. g16
+    g4 r r2
+    R1 %10
+    f8 f f f f8. e16 e8 e~
+    e c d4 e r
+    r8 c d e f f e e
+    e4. e8 e4 r
+    R1*5 %19
+    \mvTr g4\pE^\solo g8 g g4 fis %20
+    fis fis8 fis fis8. e16 e4
+    e8([ fis16 g] fis8) e dis4 dis8 fis
+    g([ a)] h([ dis,)] e2~
+    e4. d8 c[ h a fis']
+    dis4 e2 dis4 %25
+    e2 r
+    R1*4 %30
+    r8 \mvTr g\fE^\tutti g g16 g g8. g16 g8 g
+    g g g g16 g g4 g
+    g e8([ g] f[ e)] f4~
+    f e d( e \noBreak
+    d2) e\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 e e8 e e e \noBreak
+    d2 r
+    r4 f g g8 g
+    g2 fis4 f~
+    f8 f f f g8. g16 g4 %40
+    r as b as~
+    as g8([ f] g4.) g8
+    as1\fermata \bar "||" %43 finis
+  }
+}
+
+CredoAltoLyrics = \lyricmode {
+  Pa -- trem
+  o -- mni -- po --
+  ten -- tem,
+  fa -- cto -- rem coe -- li, coe --
+  li et ter -- %5
+  rae, vi -- si -- bi -- li -- um
+  o -- mni -- um
+  et in -- vi -- si -- bi -- li --
+  um.
+  %10
+  Et in u -- num Do -- mi -- num Je --
+  sum Chri -- stum,
+  Fi -- li -- um De -- i u -- ni --
+  ge -- ni -- tum.
+
+  De -- um de De -- o, %20
+  lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum de
+  De -- o __ ve --
+  _ _
+  _ _ _ %25
+  ro.
+
+  Qui pro -- pter nos ho -- mi -- nes et %31
+  pro -- pter no -- stram sa -- lu -- tem
+  de -- scen -- dit __
+  de coe --
+  lis. %35
+  Et in -- car -- na -- tus
+  est
+  de Spi -- ri -- tu
+  San -- cto ex __
+  Ma -- ri -- a Vir -- gi -- ne, %40
+  et ho -- mo __
+  fa -- ctus
+  est. %43 finis
+}

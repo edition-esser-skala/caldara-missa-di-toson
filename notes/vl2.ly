@@ -321,3 +321,40 @@ QuoniamViolinoII = {
     e1\fermata \bar "|." %210 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1*5 %5
+    r4 h'16\fE c a h c e d c h c a h
+    c e d c h c a h c8 h c h
+    c2. h4
+    c8 c,4 h8 c4 r
+    r2 e'8 e e e %10
+    e d d d4 c8 c4
+    a2 gis4 r
+    r8 c h a d d c c
+    h4. h8 a4 r
+    r2 d16 cis d cis d4 %15
+    c16\pE h c h c4 h16 a h a h4
+    c4. d8 g,4. a8
+    a4 g2 fis4
+    g4. e'8 a,2
+    g4 r r2
+    R1*10
+    r8 h\fE d c16 h c8. g16 g8 h
+    c h c h c c g e
+    c r e' e c a4 c8
+    h4 g8 c h4 c~ \noBreak
+    c h c2\fermata \bar "||"
+    \tempoEtIncarnatus r4 g g8 g g g
+    f2 r4 a
+    f e8 d d'2~
+    d4 c d d~
+    d8 h! h h c8. c16 c4~
+    c des2 c4
+    b2. b4
+    as1\fermata \bar "||"
+  }
+}

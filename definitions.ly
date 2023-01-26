@@ -18,6 +18,8 @@ tempoQuiSedes = \tempoMarkup "Andante"
 tempoQuoniam = \tempoMarkup "Allegro"
   tempoJesu = \tempoMarkup "Adagio"
   tempoCumSancto = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
 
 
 \include "notes/clno1.ly"

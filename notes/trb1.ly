@@ -228,3 +228,39 @@ QuoniamTromboneI = {
     g1\fermata \bar "|." %210 finis
   }
 }
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoCredo
+    R1*5 %5
+    r4 \mvTr g'8\fE-\tuttiE g g4 g8 g
+    g8. g16 g4 r2
+    r4 c8 g a a g8. g16
+    g4 r r2
+    R1 %10
+    f8 f f f f8. e16 e8 e
+    e c d4 e r
+    r8 c d e f f e e
+    e4. e8 e4 r
+    R1*11 %25
+    r2 \mvTr d8.\pE-\solo c16 h8 e
+    cis4 d d8 e c? d
+    h4 a r2
+    g'8 fis? e d c2~
+    c4 h a2 %30
+    g8 \mvTr g'\fE-\tuttiE g g g8. g16 g8 g
+    g g g g16 g g4 g~
+    g e8 g f e f4~
+    f e d e \noBreak
+    d2 e\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 e e8 e e e \noBreak
+    d2 r
+    r4 f g g8 g
+    g2 fis4 f~
+    f8 f f f g8. g16 g4 %40
+    r as b as~
+    as g8 f g4. g8
+    as1\fermata \bar "||" %43 finis
+  }
+}

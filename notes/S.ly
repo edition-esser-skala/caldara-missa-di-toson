@@ -547,25 +547,85 @@ QuoniamSopranoLyrics = \lyricmode {
   men. %210 finis
 }
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu -- tem
-% de -- scen -- dit de coe -- lis.
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    R1*2
+    r2 \mvTr g'\pE^\solo
+    c h
+    e4 d8 d c2 %5
+    h4 \mvTr h8\fE^\tuttiE h c4 h8 h
+    c8. c16 h4 g'8 d e h
+    c2. h4
+    c r r2
+    r e8 e e e %10
+    e8. d16 d8 d4( c8) c4
+    a2 gis8 gis a h
+    c4.( h8) a4 a~
+    a8 a gis8. gis16 a4 r
+    R1*5 %19
+    \mvTr h4\pE^\solo h8 h h4 a %20
+    a a8 a a8. g16 g4
+    g8([ a16 h] a8) g fis4 fis
+    r2 r4 r8 h
+    c([ d]) e([ gis,)] a2~
+    a4 g fis2 %25
+    e r
+    R1*4 %30
+    r8 \mvTr h'\fE^\tutti d c16 h c8. c16 c8 h
+    c h c h16 h c4 c
+    r c8([ g)] a4 a8 a
+    g1~ \noBreak
+    g2 g\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 g g8 g g g \noBreak
+    f2 r4 a
+    f e8 d d'2~
+    d4 c d d~
+    d8 h! h h c8. c16 c4 %40
+    c des2 c4
+    b2. b4
+    as1\fermata \bar "||" %43 finis
+  }
+}
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+CredoSopranoLyrics = \lyricmode {
+  Fa -- %3
+  cto -- rem
+  coe -- li et ter -- %5
+  rae, vi -- si -- bi -- li -- um
+  o -- mni -- um et in -- vi -- si --
+  bi -- li --
+  um.
+  Et in u -- num %10
+  Do -- mi -- num Je -- sum
+  Chri -- stum, Fi -- li -- um
+  De -- i u -- ni --
+  ge -- ni -- tum.
+
+  De -- um de De -- o, %20
+  lu -- men de lu -- mi -- ne,
+  De -- um ve -- rum
+  de
+  De -- o ve --
+  _ _ %25
+  ro.
+
+  Qui pro -- pter nos ho -- mi -- nes et %31
+  pro -- pter no -- stram sa -- lu -- tem
+  de -- scen -- dit de
+  coe --
+  lis. %35
+  Et in -- car -- na -- tus
+  est de
+  Spi -- ri -- tu San --
+  _ cto ex __
+  Ma -- ri -- a Vir -- gi -- ne, %40
+  et ho -- mo
+  fa -- ctus
+  est. %43 finis
+}
+
 
 % Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
 % sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.

@@ -534,3 +534,82 @@ QuoniamBassoLyrics = \lyricmode {
   men, a -- men, a -- men, a --
   men. %210 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    R1*5 %5
+    r4 \mvTr g'8\fE^\tutti g c4 g8 g
+    c8. c16 g4 r2
+    c8 g a e f([ e16 f] g8.) g16
+    c,4 r c'8 c c c
+    c8. h16 h4 c c, %10
+    d8([ e)] f([ d)] a'4. g8
+    f2 e4 r
+    r8 a, h c d d a a
+    e'4. e8 a,4 r
+    r2 r4 \mvTr d8\pE^\solo d %15
+    e4. fis8 g4 g,
+    a4. h8 c![ c'16 h] c8[ c,]
+    h[ h'16 a] h8[ h,] a[ a'16 g] a8[ a,]
+    g[ g'16 fis] g8 c, d([ c] d8.) d16
+    g,4 r r2 %20
+    R1*5 %25
+    g'8. fis16 e8 a fis4 g
+    g8 a fis g e4 fis
+    g d d'8([ c)] h([ a)]
+    g4. a16[ h] c8[ h a g]
+    fis([ d)] g([ c,)] d4. d8 %30
+    g, \mvTr g'\fE^\tutti h a16 g c8. c,16 c8 g'
+    c g c g16 g c4 c,
+    c'8([ g)] a([ e)] f([ c)] d([ a)]
+    h4 c8 c g2~ \noBreak
+    g c\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 cis cis8 cis cis cis \noBreak
+    d2 r
+    r4 d b a8 g
+    es'2 d4 f!~
+    f8 f f f es8. es16 es4 %40
+    r f g as
+    es2. es4 \noBreak
+    as,1\fermata \bar "||" %43 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Vi -- si -- bi -- li -- um %6
+  o -- mni -- um
+  et in -- vi -- si -- bi -- li --
+  um. Et in u -- num
+  Do -- mi -- num Je -- sum, %10
+  Je -- sum, Je -- sum
+  Chri -- stum,
+  Fi -- li -- um De -- i u -- ni --
+  ge -- ni -- tum.
+  Et ex %15
+  Pa -- tre na -- tum
+  an -- te o -- _
+  _ _ _ _
+  _ mni -- a sae -- cu --
+  la. %20
+
+  Ge -- ni -- tum non fa -- ctum, %26
+  con -- sub -- stan -- ti -- a -- lem
+  Pa -- tri, per quem
+  o -- _ _
+  mni -- a __ fa -- cta %30
+  sunt. Qui pro -- pter nos ho -- mi -- nes et
+  pro -- pter no -- stram sa -- lu -- tem
+  de -- scen -- dit de __
+  coe -- lis, de coe --
+  lis. %35
+  Et in -- car -- na -- tus
+  est
+  de Spi -- ri -- tu
+  San -- cto ex __
+  Ma -- ri -- a Vir -- gi -- ne, %40
+  et ho -- mo
+  fa -- ctus
+  est. %43 finis
+}

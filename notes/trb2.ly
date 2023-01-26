@@ -225,3 +225,34 @@ QuoniamTromboneII = {
     c1\fermata \bar "|." %210 finis
   }
 }
+
+CredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoCredo
+    R1*5 %5
+    r4 d8\fE d e4 d8 d
+    e8. e16 d4 r2
+    e8 e e e d4. d8
+    e4 r r2
+    d8 d d d d8. c16 c4 %10
+    a a a a
+    a2 h8 h c d
+    e4 a, d8 d c c
+    h4. h8 a4 r
+    R1*16 %30
+    r8 d\fE d d16 d e8. e16 e8 d
+    e d e d16 e e4 e
+    e8 h c4 c a8 c
+    d4 c h c~ \noBreak
+    c h c2\fermata \bar "||" %35
+    \tempoEtIncarnatus r4 b b8 b b b
+    a2 r
+    r4 a b b8 b
+    b4 a8 g a4 h~
+    h8 d d d d8.-\critnote c16 c4
+    r f es es
+    es2. es4
+    es1\fermata \bar "||"
+  }
+}

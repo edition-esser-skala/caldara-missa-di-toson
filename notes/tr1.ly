@@ -108,3 +108,23 @@ QuoniamTrombaI = {
     g1\fermata \bar "|." %210 finis
   }
 }
+
+CredoTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    R1*5 %5
+    r4 g'8\fE g e4 g8 g
+    e8. e16 g4 r2
+    r r4 g
+    g8 g g4 g r
+    R1*21 %30
+    r8 g\fE g g16 g g8. g16 g8 g
+    g g g g g4 g
+    R1
+    r4 g g g \noBreak
+    g2 g\fermata \bar "||" %35
+    \tempoEtIncarnatus R1*7 %42
+    R1\fermata \bar "||" %43 finis
+  }
+}
