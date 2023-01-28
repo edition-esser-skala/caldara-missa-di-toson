@@ -577,53 +577,135 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Crucifixus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \CrucifixusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \CrucifixusViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B 1"
+  %           \new Voice = "BassoI" { \dynamicUp \CrucifixusBassoI }
+  %         }
+  %         \new Lyrics \lyricsto BassoI \CrucifixusBassoILyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B 2"
+  %           \new Voice = "BassoII" { \dynamicUp \CrucifixusBassoII }
+  %         }
+  %         \new Lyrics \lyricsto BassoII \CrucifixusBassoIILyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \CrucifixusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \CrucifixusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 50 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Crucifixus"
+    \subsection "Et resurrexit · Et vitam"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
     \score {
       <<
+        \new StaffGroup <<
+          \new Staff <<
+            \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+            \set Staff.soloText = \markup \remark \medium "clno 1"
+            \partCombine #'(0 . 10) \EtResurrexitClarinoI \EtResurrexitClarinoII
+          >>
+          \new Staff \with { \smallStaffDistance } <<
+            \set Staff.instrumentName = \markup \center-column { "tr" "1, 2" }
+            \partCombine #'(0 . 10) \EtResurrexitTrombaI \EtResurrexitTrombaII
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "trb"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \EtResurrexitTromboneI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \EtResurrexitTromboneII
+            }
+          >>
+        >>
+        \new Staff {
+          \set Staff.instrumentName = "timp"
+          \EtResurrexitTimpani
+        }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \CrucifixusViolinoI
+              \EtResurrexitViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \CrucifixusViolinoII
+              \EtResurrexitViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "B 1"
-            \new Voice = "BassoI" { \dynamicUp \CrucifixusBassoI }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \EtResurrexitSoprano }
           }
-          \new Lyrics \lyricsto BassoI \CrucifixusBassoILyrics
+          \new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = "B 2"
-            \new Voice = "BassoII" { \dynamicUp \CrucifixusBassoII }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \EtResurrexitAlto }
           }
-          \new Lyrics \lyricsto BassoII \CrucifixusBassoIILyrics
+          \new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \EtResurrexitTenore }
+          }
+          \new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \EtResurrexitBasso }
+          }
+          \new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \CrucifixusOrgano
+            \EtResurrexitOrgano
           }
         >>
-        \new FiguredBass { \CrucifixusBassFigures }
+        \new FiguredBass { \EtResurrexitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 50 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

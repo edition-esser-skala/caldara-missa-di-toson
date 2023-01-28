@@ -717,3 +717,183 @@ CrucifixusBassoIILyrics = \lyricmode {
   _
   _ tus est. %63 finis
 }
+
+EtResurrexitBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*15 %79
+    r8 \mvTr g'\fE^\tutti c([ h)] a([ g)] %80
+    a[ e a g f e]
+    f[ c f e d c]
+    g'4 g,8 g' e c
+    g'4 g, r8 g'
+    e4 c8 c g'4 %85
+    c,2 r4
+    R2.*15 %101
+    \mvTr c'2.\f^\unisono^\tuttiE
+    a
+    f
+    d %105
+    b'
+    g
+    es
+    cis
+    d %110
+    g,
+    gis
+    a2 a4
+    a a'8 g! f([ e)]
+    d f g d a'4 %115
+    d, r r
+    R2.*8 %124
+    r4 \mvTr f8([\pE^\solo a)] g([ f)] %125
+    c'4 c,8([ e)] d([ c)]
+    f([ e)] f([ a)] g([ f)]
+    e4. d8 c4
+    R2. \noBreak
+    R\fermata \bar "||" %130
+    \time 4/4 \tempoSimul r2 \mvTr c'8\fE^\tutti c, es g \noBreak
+    b2 a4. f8
+    g[ es c b] a4 b \noBreak
+    f'2 f,\fermata \bar "||"
+    \time 3/4 \tempoEtConglo r8 f' b a b a \noBreak %135
+    b f b a b a
+    b([ g)] e f c4
+    f, r8 f' a f
+    c4 c8^\critnote cis cis8. cis16
+    d4 r8 d d d %140
+    d8. d16 c!8 a e'8. e16
+    a,4 r a'
+    h8. h16 h8 h h g
+    c g c g e c
+    a a' f d g4 %145
+    c, r r
+    r g' fis
+    g8 g g g fis fis
+    g g g g d d
+    g4 g, r %150
+    g'2.
+    e
+    c
+    a
+    f %155
+    e~ \noBreak
+    e\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*7 %164
+    r2 \mvTr g'\fE^\tutti %165
+    c, h4 r8 h'
+    a g a d, g4 r8 g
+    e[ d e fis] g[ g a h]
+    c[ b a g] f4. g8
+    e c d4 g, r %170
+    R1
+    r8 c[ d e] f[ g a h]
+    c[ h a g] f2
+    e4 e a,2
+    g!4 r8 g' fis e fis h, %175
+    e4 g8 e a fis h4
+    e, r8 e cis[ a h cis]
+    d!4. c8 h[ g a h]
+    c4 r r2
+    R1 %180
+    r2 g'
+    c, h4 r8 h'
+    a g a d, g4 r8 g
+    e[ d e fis] g[ g a h]
+    c[ h a g] f4. g8 %185
+    e c r4 r2
+    c' g4.( f8)
+    e4 r8 e d c d g,
+    c4 e8 c g'4 c
+    g2 c,4 g %190
+    c1\fermata \bar "|." %191 finis
+  }
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+  Et re -- sur -- %80
+  re --
+  _
+  _ xit ter -- ti -- a
+  di -- e se --
+  cun -- dum Scri -- ptu -- %85
+  ras.
+
+  Iu -- %102
+  di --
+  ca --
+  re %105
+  vi --
+  vos
+  et
+  mor --
+  _ %110
+  _
+  _
+  _ tu --
+  os, cu -- ius re --
+  gni non e -- rit fi -- %115
+  nis.
+
+  Qui cum %125
+  Pa -- tre, cum
+  Pa -- tre et __
+  Fi -- li -- o
+
+  Si -- mul ad -- o -- %131
+  ra -- _ _
+  _ _ _
+  _ tur
+  et con -- glo -- ri -- fi -- %135
+  ca -- tur: qui lo -- cu -- tus
+  est per Pro -- phe --
+  tas. Et u -- nam
+  san -- ctam ca -- tho -- li --
+  cam et a -- po -- %140
+  sto -- li -- cam Ec -- cle -- si --
+  am. Con --
+  fi -- te -- or u -- num ba --
+  ptis -- ma in re -- mis -- si --
+  o -- nem pec -- ca -- to -- %145
+  rum.
+  Et ex --
+  pe -- cto re -- sur -- re -- cti --
+  o -- nem, re -- sur -- re -- cti --
+  o -- nem %150
+  mor --
+  tu --
+  o --
+  _
+  _ %155
+  rum. __
+
+  Et %165
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li, a --
+  _ _
+  _ _ _
+  _ men, a -- men, %170
+
+  a -- _
+  _ _
+  men, et vi --
+  tam ven -- tu -- ri sae -- cu -- %175
+  li, a -- men, a -- men, a --
+  men, a -- _
+  _ _ _
+  men,
+  %180
+  et
+  vi -- tam ven --
+  tu -- ri sae -- cu -- li, a --
+  _ _
+  _ _ _ %185
+  _ men,
+  et vi --
+  tam ven -- tu -- ri sae -- cu --
+  li, a -- men, a -- men,
+  a -- men, a -- %190
+  men. %191 finis
+}

@@ -144,3 +144,54 @@ CredoClarinoII = {
     R1\fermata \bar "||" %43 finis
   }
 }
+
+EtResurrexitClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*18 %82
+    r4 r8 d'\fE c c
+    d d_\critnote d d d d
+    e e e e d d %85
+    c4 r r
+    g r r
+    e r r
+    c r r
+    R2.*12 %101
+    \mvTr r4 c\fE_\critnote c
+    c2.~
+    c
+    r4 d' d %105
+    d2.~
+    d
+    r4 g, g
+    g2.
+    r4 d' d %110
+    d2.~
+    d
+    R2.*16 %128
+    r8 g,\fE g g g g \noBreak
+    g4 r r\fermata \bar "||" %130
+    \time 4/4 \tempoSimul R1*3 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtConglo R2.*8 %142
+    d'4\fE r8 d d d
+    e d e d e4
+    r r d %145
+    c r r
+    R2.*10 \noBreak %156
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*10 %167
+    r2 g'\fE
+    c, f4 d
+    e8 e d4 d r %170
+    R1*15 %185
+    r2 g
+    c,_\critnote d4 r8 g
+    g f g c, f4. d8
+    c4 r8 c d4 c
+    d2 c8 g g4 %190
+    e1\fermata \bar "|." %191 finis
+  }
+}

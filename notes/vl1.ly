@@ -419,3 +419,101 @@ CrucifixusViolinoI = {
     b as g4 f2\fermata \bar "||" %64 finis
   }
 }
+
+EtResurrexitViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*17 %81
+    r8 e'\fE a g f e16 f
+    g4 d8 d e e
+    d16 d e f g d e f g g, a h
+    c g' a h c8 e, d h' %85
+    c e, g f e d
+    e g^\critnote e d c h
+    c e c h a g
+    c e c h a g
+    a c h c d, h' %90
+    c4 r r
+    R2.*10 %101
+    c8\fE c c c c c
+    c c c c c c
+    f f f f f f
+    f f f f f f %105
+    g g g g g g
+    d d d d d d
+    g g g g g g
+    e e e e e e
+    f f f f f f %110
+    g b, b b b b
+    d d d d d d
+    cis cis cis cis d d
+    cis4 e16 d cis h a8 cis
+    d a' g f e4 %115
+    d r r
+    R2.*8 %124
+    r4 f\pE f %125
+    f e g~
+    g f g
+    g8 g a h c16 h c h
+    c8 e,16\fE d e d e d e d e d \noBreak
+    e4 r r\fermata \bar "||" %130
+    \time 4/4 \tempoSimul f8\fE f, a c es2 \noBreak
+    e f4 c
+    b c2 b4~ \noBreak
+    b a8 g a2\fermata \bar "||"
+    \time 3/4 \tempoEtConglo r8 f' d^\critnote f d f \noBreak %135
+    d f d f d f
+    d b'4 a8 g4
+    f8 c'16 b a8 c16 b a4
+    r8 g16 f e8 g16 f e4
+    r8 a16 g f8 a16 g f8 f %140
+    e gis a a4 gis8
+    a e16 d c8 e16 d c8 c
+    d d16 c h8 d16 c h8 d
+    e g16 f e8 d c c
+    c c c c h4 %145
+    c8 g'16 f e8 g16 f e4
+    r8 d16 c h8 g a d
+    h d16 c h8 g a d
+    h d16 c h8 g a d
+    h d16 c h8 d16 c h4 %150
+    h8 h h h h h
+    g g g g g g
+    g g g g g g
+    a a a a a a
+    a a a a a a %155
+    gis a gis a gis a \noBreak
+    gis2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam c2\fE g4. f8 \noBreak
+    e4 r8 e' d c d g,
+    c4 r8 c h g a h %160
+    c d e fis g fis e d
+    c4. d8 h g d'4~
+    d c4. h8 c d
+    e d c2 h!4
+    R1*3 %167
+    c2 g4. f!8
+    e4 r8 e' d c d g,
+    c4 a h8 g a h %170
+    c d e f! g f e d
+    c4. h8 a2
+    g a
+    gis8 e fis gis a h c d
+    e d c h c e a, h~ %175
+    h cis16 dis e2 dis4
+    e2~ e8 cis d e
+    d2~ d8 h c d
+    g,4 r r2
+    R1*4 %183
+    c2 g4. f!8
+    e4 r8 e' d c d g, %185
+    c4 r8 c h g a h
+    c d e f g f e d
+    c2. h4
+    e2 d4 e
+    d2 c4 h %190
+    c1\fermata \bar "|." %191 finis
+  }
+}

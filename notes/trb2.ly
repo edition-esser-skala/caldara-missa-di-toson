@@ -256,3 +256,77 @@ CredoTromboneII = {
     es1\fermata \bar "||"
   }
 }
+
+EtResurrexitTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*15 %79
+    r8 h\fE e d c h %80
+    c2.~
+    c
+    h8 a g d' e e
+    d c h4 r8 d
+    e4 e8 e d4 %85
+    e2 r4
+    R2.*27 %113
+    r4 cis8\fE cis d e
+    f f d f e4 %115
+    d r r
+    R2.*13 \noBreak %129
+    R2.\fermata \bar "||" %130
+    \time 4/4 \tempoSimul R1 \noBreak
+    r2 f8\fE f, a c
+    es2. d4~ \noBreak
+    d c8 b c2\fermata \bar "||"
+    \time 3/4 \tempoEtConglo r8 c d c d c \noBreak %135
+    d c d c d c
+    d4 c8 c c4
+    c r8 c c c
+    c4 c8 a a8. a16
+    d4 r8 d d d %140
+    h!8. h16 c8 c h8. h16
+    a4 r e'
+    d8. d16 d8 d d d
+    c h c h c c
+    e e d d d4 %145
+    e r r
+    r h a
+    h8 h h h a a
+    h h h h a a
+    h4 h r %150
+    R2.*6 \noBreak %156
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*5 %162
+    \mvTr c2\fE^\tutti g4. f!8
+    e4 r8 e' d c d g,
+    c4 r8 c h g a h %165
+    c d e fis g fis e d
+    c4. d8 h g h4
+    e2 d
+    e8 d c h a4 h
+    c8 e d4 d r %170
+    R1
+    r4 r8 g, a h c d
+    e d c h a2
+    h8 gis a h c d e fis
+    g! fis e2 dis4 %175
+    e h c r8 h
+    gis e fis gis a2~
+    a8 fis g a g4 r
+    c2 g4. f8
+    e4 r8 e' d c d g, %180
+    c4 r8 d h g a h
+    c d e fis g fis e d
+    c4. d8 h g a h
+    c4. h16 a h4 c8 d
+    e d c2 h4 %185
+    r c g4. f8
+    e4 r8 e' d c d g,
+    c4. g8 a4 d~
+    d c h c~
+    c h c d %190
+    e1\fermata \bar "|." %191 finis
+  }
+}

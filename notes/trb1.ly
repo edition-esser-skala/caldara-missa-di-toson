@@ -264,3 +264,95 @@ CredoTromboneI = {
     as1\fermata \bar "||" %43 finis
   }
 }
+
+EtResurrexitTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*17 %74
+    r8 \mvTr e\fE-\tuttiE a g f e
+    d4 d8 g g g
+    g d d4 r8 g
+    g4 g8 g g4 %85
+    g2 r4
+    R2.*15 %102
+    e8-\solo^\critnote e e e e e
+    f f f f f f
+    a, a a a a a %105
+    b b b b b b
+    g g g g g g
+    g g g g g g
+    g g g g g g
+    g g g g g g %110
+    d' d d d d d
+    g, g g g g g
+    gis gis gis gis gis gis
+    a a a a a a
+    a cis e-\tutti e f g
+    a a b a a4
+    a r r
+    R2.*13 \noBreak %129
+    R2.\fermata \bar "||" %130
+    \time 4/4 \tempoSimul R1 \noBreak
+    c8\fE c, e! g a2
+    g f~ \noBreak
+    f f\fermata \bar "||"
+    \time 3/4 \tempoEtConglo r8 f f f f f \noBreak %135
+    f f f f f f
+    f4 g8 f f e
+    f4 r8 f f f
+    e4 e8 e e8. e16
+    f4 r8 f f f %140
+    e8. e16 e8 e e8. e16
+    e4 r a
+    g!8. g16 g8 g g g
+    g g g g g g
+    a a a a g4 %145
+    g r r
+    r g a
+    g8 g g g a a
+    g g g g fis fis
+    g4 g r %150
+    g,8-\solo^\critnote g g g g g
+    c c c c c c
+    c c c c c c
+    c c c c c c
+    c c c c c h %155
+    h c h c h c \noBreak
+    h2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*2
+    r2 \mvTr g'\fE-\tuttiE %160
+    c, h4 r8 h'
+    a g a d, g4 r8 g
+    e d e fis g g a h
+    c b a g f4. g8
+    e c a'2 g4~ %165
+    g8 f e4 d g~
+    g fis8 a~ a d, g4~
+    g8 fis g a h4. a8
+    g2 a4 g~
+    g fis g r8 g, %170
+    a h c d e f g f
+    e4. d8 c2~
+    c8 d e2 d4
+    e2 r
+    e a, %175
+    g4 r8 g' fis fis fis8. fis16
+    e2 r4 r8 a
+    fis d e fis g4. f?8
+    e4 r g2
+    c, h4 r8 h' %180
+    a g a d, g4 r8 g
+    e f g a h a g4~
+    g fis g8 h, c d
+    e e fis? g d2
+    c8 d e f16 g a4 g %185
+    g2 r4 g
+    c,2 h4 r8 g'
+    g f g c, f4 f8 g
+    g2. g4
+    g2 g4 g %190
+    g1\fermata \bar "|." %191 finis
+  }
+}

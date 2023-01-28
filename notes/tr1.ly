@@ -128,3 +128,49 @@ CredoTrombaI = {
     R1\fermata \bar "||" %43 finis
   }
 }
+
+EtResurrexitTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*18 %82
+    r4 r8 g'\fE g g
+    g g g g g g
+    g e e g g g %85
+    g4 r r
+    e r r
+    \pao c^\critnote r r
+    \pao c r r
+    R2.*12 %101
+    r4 c\fE c
+    c2.~
+    c
+    \pa r4 d' d %105
+    d2.~
+    d \pd
+    r4 g, g
+    g2.
+    r4 d' d %110
+    \once \tieDashed d2.~
+    d
+    R2.*16 %128
+    r8 e,\fE e e e e
+    e4 r r\fermata \bar "||" %130
+    \time 4/4 \tempoSimul R1*3 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtConglo R2.*8 %142
+    g4\fE r8 g g g
+    e g e g g4
+    r r g %145
+    g r r
+    R2.*10 \noBreak %156
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*29 %186
+    g2\fE g4. g8
+    e4 r r2
+    r8 g g g g4 e
+    g4. g8 g4 g %190
+    g1\fermata \bar "|." %191 finis
+  }
+}

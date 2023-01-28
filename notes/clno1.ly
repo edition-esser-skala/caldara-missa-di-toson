@@ -145,3 +145,56 @@ CredoClarinoI = {
     R1\fermata \bar "||" %43 finis
   }
 }
+
+EtResurrexitClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoEtResurrexit
+      \set Score.currentBarNumber = #65
+    R2.*18 %82
+    r4 r8 \pa d'\fE e e16 f \pd
+    g8 g g g g g
+    g g g g g g %85
+    e4 r r
+    c r r
+    c r r
+    e, r r
+    R2.*12 %101
+    r4 c\fE c
+    c2.~
+    c
+    r4 d' d %105
+    d2.~
+    d
+    r4 g, g
+    g2.
+    r4 d' d %110
+    d2.~
+    d
+    R2.*16 %128
+    r8 c\fE c c c c \noBreak
+    c4 r r\fermata \bar "||" %130
+    \time 4/4 \tempoSimul R1*3 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoEtConglo R2.*8 %142
+    g'4\fE r8 g g g
+    g g g g g4
+    r r g %145
+    e r r
+    R2.*10 \noBreak %156
+    R2.\fermata \bar "||"
+    \time 4/4 \tempoEtVitam R1*10 %167
+    \pa c2\fE g
+    e4 r8 e' d c d g,
+    c g' \pd fis4^\critnote g r %170
+    R1*13 %183
+    c,2 g
+    e4 r8 e' d c d g, %185
+    c4 r8 c \pa d4 r8 d
+    c d e f g f e d
+    c2 d4.^\critnote g8
+    e d c16 d e f \pd g4 g^\critnote
+    g4. f8 e4 d %190
+    c1\fermata \bar "|." %191 finis
+  }
+}
