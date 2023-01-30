@@ -174,3 +174,31 @@ EtResurrexitTrombaI = {
     g1\fermata \bar "|." %191 finis
   }
 }
+
+SanctusTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 g'\fE c g c4
+    g8 g c g c4 %10
+    g r r
+    R2.*8 %19
+    r8 g g g g g %20
+    g g g g g4 \noBreak
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*25 %54
+    r2 g4\fE g %55
+    g g g g
+    g2 g
+    R1*14 %71
+    r2 e
+    g g
+    g g
+    g2. g4 %75
+    g\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

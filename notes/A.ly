@@ -727,3 +727,136 @@ EtResurrexitAltoLyrics = \lyricmode {
   a -- men, a -- %190
   men. %191 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*4
+    \mvTr h'4\pE^\solo a8 g a4 e8[ fis] %5
+    g4. a8 f4. g8
+    e4 a4. g16[ fis] g4~ \noBreak
+    g8[ fis16 e] fis8. fis16 g2\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 \mvTr g\fE^\tutti a g a4 \noBreak
+    g8 g a g a4 %10
+    g r8 f4 d8~
+    d g4 e a8~
+    a f4 d g8~
+    g e4 e8 e([ d)]
+    e gis a gis a gis %15
+    a gis a a gis4
+    a r r
+    r8 fis g! a g a
+    g4 g r
+    r8 g g g g g %20
+    g g g g g4 \noBreak
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*5 %34
+    r2 \mvTr g\fE^\tuttiE %35
+    e4 f g2~
+    g f4( g)
+    a2 g4 a
+    b2 a
+    g1 %40
+    g2 f
+    e a
+    g f4 e
+    d2 c
+    g1 %45
+    g'4( f) e( d)
+    c2 f
+    e4 f g2
+    f4 g a2
+    d, e4 f %50
+    g1~
+    g4 f e2
+    d1~
+    d
+    d %55
+    R
+    r2 e4 f
+    g a b g
+    a2 a
+    R1 %60
+    r2 d,
+    h4 c d2~
+    d c4( d)
+    e2 d4 e
+    f!2 e %65
+    d1
+    d2 d
+    e1
+    f!
+    g2. f4 %70
+    e2 f
+    g1~
+    g~
+    g~
+    g %75
+    g\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  Do -- mi -- nus De -- _ %5
+  _ _ _ us
+  Sa -- _ _ _
+  _ ba -- oth.
+  Ple -- ni sunt coe --
+  li, coe -- li et ter -- %10
+  ra glo -- _
+  _ _ _
+  _ _ _
+  ri -- a tu --
+  a. O -- san -- na in ex -- %15
+  cel -- sis, in ex -- cel --
+  sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na in ex -- %20
+  cel -- sis, in ex -- cel --
+  sis.
+
+  O -- %35
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _
+  sis, %40
+  in ex --
+  cel -- _
+  _ _ _
+  _ _
+  sis, %45
+  in __ ex --
+  cel -- _
+  _ _ _
+  _ _ _
+  _ _ _ %50
+  _
+  _ _
+  _
+
+  sis, %55
+
+  in ex --
+  cel -- _ _ _
+  _ sis,
+  %60
+  o --
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _ %65
+  sis,
+  in ex --
+  cel --
+  _
+  _ _ %70
+  _ _
+  _
+
+  sis. %76 finis
+}

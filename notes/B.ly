@@ -897,3 +897,107 @@ EtResurrexitBassoLyrics = \lyricmode {
   a -- men, a -- %190
   men. %191 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'8([\pE^\solo f e)] a f2~
+    f8[ d g, f'] e4 g~
+    g8[ c,] f2 e4
+    d2 c
+    R1*3 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 \mvTr c'\fE^\tutti c c c4 \noBreak
+    c8 c c c c4 %10
+    c, f d
+    g e a
+    f d g
+    e c8 c f4
+    e8 e a e a e %15
+    a e a a, e'4
+    a, r r
+    r8 d g fis g fis
+    g4 g, r
+    r8 g' c h c h %20
+    c g c c, g'4 \noBreak
+    c,2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*15 %44
+    r2 \mvTr g'\fE^\tuttiE %45
+    e4 f g2~
+    g f4( g)
+    a2 g4 a
+    b2 a
+    g1 %50
+    g4( f) e( d)
+    c1
+    d~
+    d
+    g, %55
+    R
+    r2 c4 d
+    e f g e
+    f2 f
+    R1*7 %66
+    r2 d
+    c4 d e2
+    d4( e) f2
+    e4 f g2~ %70
+    g f
+    e d4 c
+    g1~
+    g~
+    g %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus, san --
+  _ _
+  _ ctus,
+  san -- ctus.
+
+  Ple -- ni sunt coe -- %9
+  li, coe -- li et ter -- %10
+  ra glo -- _
+  _ _ _
+  _ _ _
+  _ ri -- a tu --
+  a. O -- san -- na in ex -- %15
+  cel -- sis, in ex -- cel --
+  sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na in ex -- %20
+  cel -- sis, in ex -- cel --
+  sis.
+
+  O -- %45
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _
+  sis, %50
+  in __ ex --
+  cel --
+  _
+
+  sis, %55
+
+  in ex --
+  cel -- _ _ _
+  _ sis,
+
+  o -- %67
+  san -- na in
+  ex -- cel --
+  _ _ _ %70
+  _
+  _ _ _
+  _
+
+  sis. %76 finis
+}

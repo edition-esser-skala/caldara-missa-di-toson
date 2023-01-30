@@ -198,3 +198,40 @@ EtResurrexitClarinoI = {
     c1\fermata \bar "|." %191 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 g''\fE a g a4
+    g8 g a g a4 %10
+    g r r
+    R2.*3
+    r8 e e16 f e f e f e f %15
+    e f e f e f e f e f e d
+    c4 r r
+    r8 fis g a g a
+    g4 r r
+    r8 g e16 f g f e f g f %20
+    e f g f e8 e d4 \noBreak
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*25 %54
+    r2 d4\fE d %55
+    d e f d
+    e2 e
+    R1*10 %67
+    \pa r2 g
+    f4 g a2
+    g4 a h2 %70
+    c4 h a2
+    g1
+    g2 e4. f8
+    g2 e4 c
+    d1 \pd %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

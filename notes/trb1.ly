@@ -356,3 +356,71 @@ EtResurrexitTromboneI = {
     g1\fermata \bar "|." %191 finis
   }
 }
+
+SanctusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSanctus
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 g'\fE a g a4 \noBreak
+    g8 g a g a4 %10
+    g r8 f4 d8~
+    d g4 e a8~
+    a f4 d g8~
+    g e4 e8 e d
+    e gis a gis a gis %15
+    a gis a a gis4
+    a r r
+    r8 fis g! a g a
+    g4 g r
+    r8 g g g g g %20
+    g g g g g4 \noBreak
+    g2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*5 %34
+    r2 g\fE %35
+    e4 f g2~
+    g f4 g
+    a2 g4 a
+    b2 a
+    g1 %40
+    g2 f
+    e a
+    g f4 e
+    d2 c
+    g1 %45
+    g'4 f e d
+    c2 f
+    e4 f g2
+    f4 g a2
+    d, e4 f %50
+    g1~
+    g4 f e2
+    d1~
+    d
+    d %55
+    R
+    r2 e4 f
+    g a b g
+    a2 a
+    R1 %60
+    r2 d,
+    h4 c d2~
+    d c4 d
+    e2 d4 e
+    f!2 e %65
+    d1
+    d2 d
+    e1
+    f!
+    g2. f4 %70
+    e2 f
+    g1~
+    g~
+    g~
+    g %75
+    g\breve*1/2\fermata \bar "|." %76 finis
+  }
+}

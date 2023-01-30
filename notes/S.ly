@@ -818,19 +818,156 @@ EtResurrexitSopranoLyrics = \lyricmode {
   men. %191 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    R1*3
+    r2 \mvTr e'4\pE^\solo d8 c
+    d4.( e8 c4.) d8 %5
+    h4 e4. d16[ c] d4~
+    d8[ c16 h] c8[ h16 a] h4. a16[ g] \noBreak
+    a4. a8 g2\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 \mvTr c\fE^\tutti c c c4 \noBreak
+    c8 c c c c4 %10
+    c8 c4 a d8~
+    d h4 e c8~
+    c a4 d h8~
+    h g4 c8 a4
+    gis8 h c h c h %15
+    c h c c h4
+    a r r
+    r8 a h a h a
+    h4 h r
+    r8 h c d c d %20
+    c h c c h4 \noBreak
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      r8 \mvTr e16\pE^\solo d c8 h16 a gis4 a8 a \noBreak
+    h16[ d c h] c[ e d c] d[ f e d] e8[ c]~
+    c[^\critnote h16. c32] d4. c16[ d] e8[ fis16 e] %25
+    dis8 e16 fis dis8. e16 e4 r
+    r2 r8 e e f16 e
+    f8[ d]~ d16[ e c d] e8[ f16 e] d[ e c d] \noBreak
+    h8[ c16. d32] h8. a16 a2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      r2 \mvTr c\fE^\tuttiE \noBreak %30
+    h4 c d2~
+    d c4( d)
+    e2 d4 e
+    f2 e
+    d1 %35
+    c2 b
+    a d
+    c4 d e2
+    d4 e f2~
+    f e %40
+    d4( c) h( a)
+    g2 c
+    h4 c d2
+    a4 h c2~
+    c h %45
+    R1*2
+    c2 h4 c
+    d2 c
+    h! c~ %50
+    c4 a h2
+    c4( h) a( g)
+    fis2 g~
+    g fis
+    g h4 c %55
+    d e f! d
+    e2 e
+    R1
+    r2 c4 h
+    a h c a %60
+    h2 h
+    R1*4 %65
+    r2 g
+    fis4 g a2~
+    a g4( a)
+    h2 a4 h
+    c2 h %70
+    a a4 h
+    c2 d4 e
+    d2 c
+    h c~
+    c h %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
+SanctusSopranoLyrics = \lyricmode {
+  Do -- mi -- nus %4
+  De -- us %5
+  Sa -- _ _ _
+  _ _ _
+  _ ba -- oth.
+  Ple -- ni sunt coe --
+  li, coe -- li et ter -- %10
+  ra glo -- _ _
+  _ _ _
+  _ _ _
+  ri -- a tu --
+  a. O -- san -- na in ex -- %15
+  cel -- sis, in ex -- cel --
+  sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na in ex -- %20
+  cel -- sis, in ex -- cel --
+  sis.
+  Be -- ne -- di -- ctus, qui ve -- nit in
+  no -- _ _ _
+  _ _ _ %25
+  _ mi -- ne Do -- mi -- ni,
+  in no -- mi -- ne
+  Do -- _ _
+  _ _ mi -- ni.
+  O -- %30
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _
+  sis, %35
+  in ex --
+  cel -- _
+  _ _ _
+  _ _ _
+  sis, %40
+  in __ ex --
+  cel -- _
+  _ _ _
+  _ _ _
+  sis, %45
 
+  o -- san -- na %48
+  in ex --
+  cel -- _ %50
+  _ sis,
+  in __ ex --
+  cel -- _
+  _
+  sis, in ex -- %55
+  cel -- _ _ _
+  _ sis,
 
-% ## Benedictus
+  in ex --
+  cel -- _ _ _ %60
+  _ sis,
 
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
+  o -- %66
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _ %70
+  sis, in ex --
+  cel -- _ _
+  _ _
+  _ _
+  _ %75
+  sis. %76 finis
+}
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

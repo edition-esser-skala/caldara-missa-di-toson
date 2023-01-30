@@ -664,3 +664,143 @@ EtResurrexitTenoreLyrics = \lyricmode {
   _ men, a -- %190
   men. %191 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    r2 \mvTr c8([\pE^\solo b a)] d
+    h2 c8[ g c, b']
+    a4. d8 g,4 c~
+    c h c2
+    R1*3 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 \mvTr e\fE^\tutti f e f4 \noBreak
+    e8 e f e f4 %10
+    e8 c a4 d
+    h g c
+    a d h
+    g c8 c c([ a)]
+    h e e e e e %15
+    e e e e e4
+    e r r
+    r8 d d d d d
+    d4 d r
+    r8 d e d e d %20
+    e d e e d4 \noBreak
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      r2 r8 \mvTr e16\pE^\solo d c8 h16 a \noBreak
+    gis4 a8 a h16[ d c h] c[ e d c]
+    d4~ d16[ f e d] e8.[ d16] c[ h a g] %25
+    fis8 g16 a fis8. e16 e8 e' e f16 e
+    f8[ d]~ d16[ e c d] e8[ c]~ c16[ d h c]
+    d8[ h]~ h16[ c a h] c8[ d16 c] h[ c a h] \noBreak
+    gis8[ a16. h32] gis8. a16 a2\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection R1*10 %39
+    r2 \mvTr c\fE^\tuttiE %40
+    h4 c d2~
+    d c4( d)
+    e2 d4 e
+    f2 e
+    d1 %45
+    c2 b
+    a d
+    c4 d e2
+    d4 e f2~
+    f e %50
+    d1
+    e4( d) c( h)
+    a2 h
+    a1
+    g2 g4 a %55
+    h c d h
+    c2 c
+    R1
+    r2 a4 g
+    fis g a fis %60
+    g2 g
+    r g
+    fis4 g a2
+    g4( a) h2
+    a4 h c2~ %65
+    c h
+    a a4 h
+    c2 h4 c
+    d2 c4 d
+    e2. d4 %70
+    c2 d
+    g, c
+    h e
+    d e
+    d1 %75
+    e\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+  san -- _
+  _ _ _ _
+  _ ctus.
+
+  Ple -- ni sunt coe -- %9
+  li, coe -- li et ter -- %10
+  ra glo -- _ _
+  _ _ _
+  _ _ _
+  _ ri -- a tu --
+  a. O -- san -- na in ex -- %15
+  cel -- sis, in ex -- cel --
+  sis,
+  o -- san -- na in ex --
+  cel -- sis,
+  o -- san -- na in ex -- %20
+  cel -- sis, in ex -- cel --
+  sis.
+  Be -- ne -- di -- ctus, qui
+  ve -- nit in no -- _
+  _ _ _ %25
+  _ mi -- ne Do -- mi -- ni, in no -- mi -- ne
+  Do -- _
+  _ _ _
+  _ _ mi -- ni.
+
+  O -- %40
+  san -- na in __
+  ex --
+  cel -- _ _
+  _ _
+  sis, %45
+  in ex --
+  cel -- _
+  _ _ _
+  _ _ _
+  _ %50
+  sis,
+  in __ ex --
+  cel -- _
+  _
+  sis, in ex -- %55
+  cel -- _ _ _
+  _ sis,
+
+  in ex --
+  cel -- _ _ _ %60
+  _ sis,
+  o --
+  san -- na in
+  ex -- cel --
+  _ _ _ %65
+  _
+  sis, in ex --
+  cel -- _ _
+  _ _ _
+  _ _ %70
+  _ _
+  _ _
+  _ _
+  _ _
+  _ %75
+  sis. %76 finis
+}

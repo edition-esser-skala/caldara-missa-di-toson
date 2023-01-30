@@ -517,3 +517,72 @@ EtResurrexitViolinoI = {
     c1\fermata \bar "|." %191 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    R1*7 \noBreak %7
+    R1\fermata \bar "||"
+    \time 3/4 \tempoPleni r8 g''\fE a g a4 \noBreak
+    g8 g a g a4 %10
+    g8 c,4 a d8~
+    d h4 e c8~
+    c a4 d h8~
+    h g4 c8 a4
+    gis8 h c h c h %15
+    c h c c h4
+    a8 a16 h c d e f e fis g! a
+    fis8 d d16 e d c h c d c
+    h a h c h c d e d e f g
+    e f g f e f g f e f g f %20
+    e8 d e e d4 \noBreak
+    c2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*6 \noBreak %28
+    R1\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoOsanna \newSpacingSection
+      r2 c\fE \noBreak %30
+    h4 c d2~
+    d c4 d
+    e2 d4 e
+    f2 e
+    d1 %35
+    c2 b
+    a d
+    c4 d e2
+    d4 e f2~
+    f e %40
+    d4 c h a
+    g2 c
+    h4 c d2
+    a4 h c2~
+    c h %45
+    R1*2
+    c2 h4 c
+    d2 c
+    h! c~ %50
+    c4 a h2
+    c4 h a g
+    fis2 g~
+    g fis
+    g h4 c %55
+    d e f! d
+    e2 e
+    R1
+    r2 c4 h
+    a h c a %60
+    h2 h
+    R1*4 %65
+    r2 g
+    fis4 g a2~
+    a g4 a
+    h2 a4 h
+    c2 h %70
+    a a4 h
+    c2 d4 e
+    d2 c
+    h c~
+    c h %75
+    c\breve*1/2\fermata \bar "|." %76 finis
+  }
+}
