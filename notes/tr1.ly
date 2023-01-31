@@ -202,3 +202,36 @@ SanctusTrombaI = {
     g\breve*1/2\fermata \bar "|." %76 finis
   }
 }
+
+AgnusTrombaI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*8 \noBreak %8
+    R1\fermata \bar "||"
+    \time 3/2 \tempoAgnusB \newSpacingSection
+      R1.*11 %20
+    r2 g'\fE g
+    g g r
+    R1.*3 \noBreak %25
+    g1.\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      R1*11 %37
+    r2 \pa c,
+    c \pd g'
+    g r %40
+    R1
+    r2 \pao c,
+    g' g
+    g r
+    R1*18 %62
+    g2 g
+    g2. g4
+    g2 g %65
+    g2. g4
+    g2 c,
+    c c
+    c\breve*1/2
+    c\fermata \bar "|." %70 finis
+  }
+}

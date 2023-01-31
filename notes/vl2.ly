@@ -555,3 +555,72 @@ SanctusViolinoII = {
     c\breve*1/2\fermata \bar "|." %76 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    r4 c'2\fE c4
+    cis2 d4 d
+    b b8 b b4 b
+    gis2 gis
+    r4 a2 g4 %5
+    fis4. h8 gis4 a~
+    a g2 f8 e
+    f2 e \noBreak
+    d1\fermata \bar "||"
+    \time 3/2 \tempoAgnusB \newSpacingSection
+      R1.*10 %19
+    r2 f'\fE f %20
+    f e c
+    c h! h
+    gis gis gis
+    a a c
+    c c c \noBreak %25
+    c1 h2\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      g2. g4 \noBreak
+    a2 h
+    c4 h c2~
+    c4 d b c %30
+    a2 g4 f
+    g2 c~
+    c h
+    c d
+    g,1 %35
+    R1*2
+    c1
+    d
+    e2. e4 %40
+    f2 e4 d
+    e d c2~
+    c h!
+    c a
+    g1 %45
+    f2 g
+    g1
+    r2 g
+    e c'~
+    c4 b a g %50
+    f g a b
+    c d e c
+    f2 f,
+    r a~
+    a d~ %55
+    d4 e d c
+    h2 g
+    g' e
+    c2. c4
+    c b a g %60
+    a1~
+    a2 h!4 c
+    d1~
+    d2 c
+    c2. h8 a %65
+    h1
+    c2 a~
+    a g
+    a\breve*1/2
+    g\fermata \bar "|." %70 finis
+  }
+}

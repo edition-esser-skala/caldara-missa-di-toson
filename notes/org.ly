@@ -27,7 +27,7 @@ KyrieOrgano = {
     e fis gis e a, a' %15
     f d e a, e' e,
     a4 r8 \mvTr a'\fE-\tutti a, a'
-    d, 4 r8 g g, g'
+    d,4 r8 g g, g'
     c,4 r8 c c, c'
     h h'16 a g8 fis e dis %20
     e8. fis16 g8 e h' h,
@@ -1368,4 +1368,163 @@ SanctusBassFigures = \figuremode {
   <5 3> <6 4>
   \bo <[5 \t]> \bc <[\t 3]> %75
   r1 %76 finis
+}
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    r4 \mvTr c2\fE-\tutti c4
+    a2 d~
+    d1~
+    d
+    r4 c h2~ %5
+    h e~
+    e4. d8 cis2
+    d a \noBreak
+    d1\fermata \bar "||"
+    \time 3/2 \tempoAgnusB \newSpacingSection
+      \mvTr a1.\pE-\solo \noBreak %10
+    e'
+    a,2 d1
+    e2 e, e'
+    a1.
+    d, %15
+    g,2 g' f
+    e2. f4 g2~
+    g f1
+    b,2 c1
+    f,2 a\fE f %20
+    c' c,-\tutti c'
+    g' g, g'
+    e1.
+    a,
+    fis \noBreak %25
+    g\fermata \bar "||"
+    \clef treble \time 2/2 \tempoDona \newSpacingSection
+      g''2. g4 \noBreak
+    a2 h
+    << {
+      c4 h c2~
+      c4 d b c %30
+      a1
+      g2 c
+    } \\ {
+      c,2. c4
+      d2 e %30
+      f4 e \once \tieDashed f2~
+      f e
+    } >>
+    \clef "treble_8" g,2. g4
+    a2 h
+    \clef bass c,2. c4 %35
+    d2 e
+    f4 e f2~
+    f4 g e f
+    d2 g
+    c, c' %40
+    a c~
+    c4 b a f
+    g1
+    c,2 f~
+    f e %45
+    d g
+    \once \tieDashed c,1~
+    c
+    c
+    r2 c' %50
+    a \once \tieDashed c~
+    c4 b a g
+    f2 a~
+    a4 g f e
+    d2 d' %55
+    h! \once \tieDashed d~
+    d4 c h a
+    g2 c~
+    c4 h a g
+    f2 a~ %60
+    a4 g f e
+    d c h! a
+    g1
+    c
+    \once \tieDashed g~ %65
+    g
+    c2 f~
+    f e
+    f\breve*1/2
+    c\fermata \bar "|." %70 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r1
+  <7 _+>
+  <6->1
+  <6! 4+ 2>
+  r4 <[6]> <7 [5+] _+> <6! 4> %5
+  <5+ \t> <\t _!> <7 _+> <6 4>
+  <5- \t> <\t _!> <6 5>2
+  <10 9>4 <\t 8> <4> <_+>
+  r1
+  r1. %10
+  \bo <[6] 4>2 \bc <[5] _+>1
+  r2 <6>1
+  <6 4>2 <[5] _+> <[7]>
+  <5 _+>1 <7! \t>2
+  <9 _+> \bassFigureExtendersOn <8 _+> <7! _+> \bassFigureExtendersOff %15
+  <9> <8> <\t>
+  <7> <6> <_->
+  <6 4 2>1.
+  <6 5>2 <4> <3>
+  r1. %20
+  <6 4>2 <[5] 3>1
+  <6 4>2 <5 _!>1
+  <7 _+>1.
+  r
+  <6 5> %25
+  <5 4>1 <\t 3>2
+  r1
+  r
+  r
+  r %30
+  r
+  r
+  <4>2 <3>
+  <7> <5>
+  <4> <3> %35
+  <7> <5->
+  r1
+  <4! 2>2 <6>
+  <7>1
+  r %40
+  <6>2 <5>
+  r <6>
+  <4> <_!>
+  r1
+  <4 2>2 <6> %45
+  <7>1
+  r
+  r
+  r
+  r2 <5> %50
+  <6> <6 4>
+  <5 3>1
+  r2 <6>
+  r4 <_->2.
+  <5>2 <_!> %55
+  <6>1
+  <6!>
+  r
+  r
+  r2 <6> %60
+  r1
+  <5>
+  <7>
+  <9>2 <8>
+  <4>1 %65
+  <3>
+  r
+  r2 <6>
+  r1
+  r %70 finis
 }

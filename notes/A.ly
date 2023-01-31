@@ -860,3 +860,153 @@ SanctusAltoLyrics = \lyricmode {
 
   sis. %76 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr g'2\fE^\tutti g4
+    g2 f4 f
+    f f8 f f4 f
+    e2 e
+    r4 e8 e dis4 e~ %5
+    e d2 c8.[ d16]
+    e1~
+    e4 d2 cis4 \noBreak
+    d1\fermata \bar "||"
+    \time 3/2 \tempoAgnusB \newSpacingSection
+      r2 \mvTr a' \pE^\solo a \noBreak %10
+    a gis2. gis4
+    a2 h4 c h a
+    a2 gis r
+    r a g
+    fis2. g4 a2~ %15
+    a g1
+    g2. a4 b2
+    e, f1~
+    f^\critnote e2
+    f1. %20
+    r2 \mvTr g\fE^\tutti g
+    g g g
+    gis gis4 gis gis gis
+    e2 e e
+    d1 d2 \noBreak %25
+    d1 d2\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      R1*2
+    c2. c4
+    d2 e %30
+    f4 e f2~
+    f4 g e f
+    d2 g~
+    g f~
+    f e %35
+    f( g)
+    c,1
+    r2 g'
+    f g~
+    g4 f e d %40
+    c d e f
+    g2 a
+    g1
+    g2 r
+    R1 %45
+    r2 g
+    e g~
+    g4 f e d
+    c2. d4
+    e f g2 %50
+    a g4 f
+    e d c2
+    c1
+    r2 f4 f
+    f2 d %55
+    g( f4 e)
+    d1
+    r2 g
+    e g
+    a4 g f e %60
+    f2 c
+    f2. f4
+    f2 e4( d)
+    e1
+    d~ %65
+    d
+    c2 f~
+    f g
+    f\breve*1/2
+    e\fermata \bar "|." %70 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re __ %5
+  no -- _
+  _
+  _ _
+  bis.
+  A -- gnus %10
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se --
+  re -- _ _ %15
+  re,
+  mi -- se -- re --
+  re no --
+  _
+  bis. %20
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- ta %25
+  mun -- di:
+
+  Do -- na %29
+  no -- bis %30
+  pa -- _ _
+  _ _ _
+  _ _
+  _
+  cem, %35
+  pa --
+  cem,
+  pa --
+  _ _
+  _ _ _ %40
+  _ _ _ _
+  _ _
+  _
+  cem,
+  %45
+  pa --
+  _ _
+  _ _ _
+  _ _
+  _ _ _ %50
+  _ _ _
+  _ _ _
+  cem,
+  do -- na
+  no -- bis %55
+  pa --
+  cem,
+  pa --
+  _ _
+  _ _ _ _ %60
+  _ cem,
+  do -- na
+  no -- bis
+  pa --
+  _ %65
+
+  cem, no --
+  bis
+  pa --
+  cem. %70 finis
+}

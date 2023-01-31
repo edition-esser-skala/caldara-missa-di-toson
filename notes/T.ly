@@ -804,3 +804,144 @@ SanctusTenoreLyrics = \lyricmode {
   _ %75
   sis. %76 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    r4 \mvTr e2\fE^\tutti e4
+    e2 d4 d
+    d d8 d d4 d
+    h!2 h
+    r4 c8 c fis,4 h %5
+    h2. a4
+    b2 a~
+    a1 \noBreak
+    a\fermata \bar "||"
+    \time 3/2 \tempoAgnusB \newSpacingSection
+      r2 \mvTr c!\pE^\solo c \noBreak %10
+    c h2. h4
+    c2 d4 e d c
+    c2 h r
+    R1.
+    r2 d c! %15
+    h2. c4 d2~
+    d c b
+    a2. b4 c2
+    d c1
+    c1. %20
+    r2 \mvTr e\fE^\tutti e
+    e d d
+    d d4 d d d
+    c2 c c
+    c1 c2 \noBreak %25
+    c1 h2\fermata \bar "||"
+    \time 2/2 \tempoDona \newSpacingSection
+      R1*6 %32
+    g2. g4
+    a2 h
+    c4 h c2~ %35
+    c4 d b c
+    a2 g4 f
+    g2 c~
+    c h
+    c1 %40
+    c2. c4
+    c2 c
+    d1
+    e2 c
+    h c~ %45
+    c h
+    c g
+    e g~
+    g4 f e d
+    c1 %50
+    R
+    c'2. c4
+    a2 c
+    c4 b a g
+    f2 f' %55
+    d1
+    f4 e d c
+    h2 c~
+    c4 d e2
+    f f, %60
+    c' a
+    d2. c4
+    h a g f?
+    g1~
+    g~ %65
+    g
+    g2 c~
+    c c
+    c\breve*1/2
+    c\fermata \bar "|." %70 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re %5
+  no -- _
+  _ _
+
+  bis.
+  A -- gnus %10
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Mi -- se -- %15
+  re -- _ _
+  _ _
+  _ _ _
+  re no --
+  bis. %20
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di, pec --
+  ca -- ta %25
+  mun -- di:
+
+  Do -- na %33
+  no -- bis
+  pa -- _ _ %35
+  _ _ _
+  _ _ _
+  cem, pa --
+  _
+  cem, %40
+  do -- na
+  no -- bis
+  pa --
+  cem, pa --
+  _ _ %45
+  _
+  cem, pa --
+  _ _
+  _ _ _
+  cem, %50
+
+  do -- na
+  no -- bis
+  pa -- _ _ _
+  _ _ %55
+  _
+  _ _ _ _
+  _ _
+  _ _
+  _ cem, %60
+  do -- na
+  no -- bis
+  pa -- _ _ _
+  _
+
+  cem, pa -- %67
+  cem,
+  pa --
+  cem. %70 finis
+}
