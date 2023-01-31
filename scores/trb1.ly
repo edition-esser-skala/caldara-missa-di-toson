@@ -1,105 +1,80 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Trombone I"
+          \KyrieTromboneI
         }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Christe"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \ChristeOrgano }
-      >>
-    }
+    \tacet "subsection" "Christe"
   }
   \bookpart {
     \subsection "Kyrie"
     \addTocEntry
-    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \KyrieIIOrgano }
+        \new Staff { \KyrieIITromboneI }
       >>
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaTromboneI }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisTromboneI }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Qui sedes"
-    \addTocEntry
-    \paper { systems-per-page = #5 }
-    \score {
-      <<
-        \new Staff { \QuiSedesOrgano }
-      >>
-    }
+    \tacet "subsection" "Qui sedes"
   }
   \bookpart {
     \subsection "Quoniam · Cum Sancto Spiritu"
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamTromboneI }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
-    \score {
-      <<
-        \new Staff { \CredoOrgano }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Crucifixus"
-    \addTocEntry
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \CrucifixusOrgano }
+        \new Staff { \CredoTromboneI }
       >>
     }
+    \tacet "subsection" "Crucifixus"
   }
   \bookpart {
     \subsection "Et resurrexit · Et vitam"
     \addTocEntry
     \score {
       <<
-        \new Staff { \EtResurrexitOrgano }
+        \new Staff { \EtResurrexitTromboneI }
       >>
     }
   }
@@ -108,7 +83,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusTromboneI }
       >>
     }
   }
@@ -117,7 +92,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusTromboneI }
       >>
     }
   }
