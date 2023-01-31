@@ -3,7 +3,7 @@ composer:
   first: Antonio
 title: Missa di Toson B. V. Mariæ
 genre: mass
-scoring: S, A, T, 2 B (solo), S, A, T, B (coro), 2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
+scoring: S, A, T, 2 B (solo), S, A, T, B (coro),\\2 clno (C), 2 tr (C), 2 trb, timp (C–G), 2 vl, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -40,4 +40,4 @@ sources:
     notes: full score, comprising 2 clno, timp, 2 vl, vla, S, A, T, B, and org
 imslp:
 parts:
-  ottoni: Clarino I, II in C\\Timpani in C–G
+  ottoni: Clarino I, II in C\\Tromba I, II in C\\Timpani in C–G
